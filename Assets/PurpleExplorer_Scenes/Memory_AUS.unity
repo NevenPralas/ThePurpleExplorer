@@ -123,6 +123,24 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &3475197 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5352942842280830843, guid: 064c97976737d3c4c97cb84e53f96ccb,
+    type: 3}
+  m_PrefabInstance: {fileID: 626430711}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &10252276 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5352942842280830843, guid: 064c97976737d3c4c97cb84e53f96ccb,
+    type: 3}
+  m_PrefabInstance: {fileID: 134045004}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &30293361 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8315306791391474060, guid: b5ec33c49692dd842be007ccab9a3c6c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1238437330}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &41283617
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -154,7 +172,7 @@ PrefabInstance:
     - target: {fileID: 2879170064529404442, guid: 064c97976737d3c4c97cb84e53f96ccb,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.4639997
+      value: 3.53
       objectReference: {fileID: 0}
     - target: {fileID: 2879170064529404442, guid: 064c97976737d3c4c97cb84e53f96ccb,
         type: 3}
@@ -241,8 +259,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07d40f9b30e7f0343bcb3404fe1f1e3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kvadrat: {fileID: 1408226564}
-  brzinaRotacije: 90
+  kvadrat: {fileID: 10252276}
+  newMaterial: {fileID: 2100000, guid: ed6e2541daf00a04ba4206ad3e1f62db, type: 2}
+  oldMaterial: {fileID: 2100000, guid: 00b3e427e5fd7694dbf9587ee512728f, type: 2}
+  button: {fileID: 1067929437}
 --- !u!4 &44234082
 Transform:
   m_ObjectHideFlags: 0
@@ -258,23 +278,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1994760823}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &45806935 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1723072912949491731, guid: 064c97976737d3c4c97cb84e53f96ccb,
-    type: 3}
-  m_PrefabInstance: {fileID: 1424830327}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &57266445 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8315306790077787368, guid: b5ec33c49692dd842be007ccab9a3c6c,
     type: 3}
   m_PrefabInstance: {fileID: 1567452485}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &86793235 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1723072912949491731, guid: 064c97976737d3c4c97cb84e53f96ccb,
-    type: 3}
-  m_PrefabInstance: {fileID: 1345059879}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &134045004
 PrefabInstance:
@@ -307,7 +315,7 @@ PrefabInstance:
     - target: {fileID: 2879170064529404442, guid: 064c97976737d3c4c97cb84e53f96ccb,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.214
+      value: 0.586
       objectReference: {fileID: 0}
     - target: {fileID: 2879170064529404442, guid: 064c97976737d3c4c97cb84e53f96ccb,
         type: 3}
@@ -396,7 +404,7 @@ PrefabInstance:
     - target: {fileID: 2879170064529404442, guid: 064c97976737d3c4c97cb84e53f96ccb,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.964
+      value: 2.1
       objectReference: {fileID: 0}
     - target: {fileID: 2879170064529404442, guid: 064c97976737d3c4c97cb84e53f96ccb,
         type: 3}
@@ -454,6 +462,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 143628932}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &160604507 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8315306791391474060, guid: b5ec33c49692dd842be007ccab9a3c6c,
+    type: 3}
+  m_PrefabInstance: {fileID: 187641512}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &166428233 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8315306791391474060, guid: b5ec33c49692dd842be007ccab9a3c6c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1639721849}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &187641512
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -466,7 +486,7 @@ PrefabInstance:
         type: 3}
       propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 191015723}
+      objectReference: {fileID: 1935784073}
     - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
       propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -474,8 +494,18 @@ PrefabInstance:
       objectReference: {fileID: 1935784073}
     - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
+      propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Click
+      objectReference: {fileID: 0}
+    - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
+        type: 3}
       propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Click
+      objectReference: {fileID: 0}
+    - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
+        type: 3}
+      propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: RotacijaNaDugme, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
@@ -485,12 +515,12 @@ PrefabInstance:
     - target: {fileID: 8315306790077787368, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.25
+      value: -2.46
       objectReference: {fileID: 0}
     - target: {fileID: 8315306790077787368, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.0136204
+      value: 2.03
       objectReference: {fileID: 0}
     - target: {fileID: 8315306790077787368, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
@@ -536,6 +566,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ButtonRound6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8315306791391474060, guid: b5ec33c49692dd842be007ccab9a3c6c,
+        type: 3}
+      propertyPath: m_Name
+      value: InnerButton6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -604,7 +639,7 @@ PrefabInstance:
         type: 3}
       propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 191015723}
+      objectReference: {fileID: 44234081}
     - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
       propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -612,8 +647,18 @@ PrefabInstance:
       objectReference: {fileID: 44234081}
     - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
+      propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Click
+      objectReference: {fileID: 0}
+    - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
+        type: 3}
       propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Click
+      objectReference: {fileID: 0}
+    - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
+        type: 3}
+      propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: RotacijaNaDugme, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
@@ -623,12 +668,12 @@ PrefabInstance:
     - target: {fileID: 8315306790077787368, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1
+      value: 1.68
       objectReference: {fileID: 0}
     - target: {fileID: 8315306790077787368, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.0136204
+      value: 0.52
       objectReference: {fileID: 0}
     - target: {fileID: 8315306790077787368, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
@@ -675,22 +720,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: ButtonRound3
       objectReference: {fileID: 0}
+    - target: {fileID: 8315306791391474060, guid: b5ec33c49692dd842be007ccab9a3c6c,
+        type: 3}
+      propertyPath: m_Name
+      value: InnerButton3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b5ec33c49692dd842be007ccab9a3c6c, type: 3}
---- !u!1 &228967845 stripped
+--- !u!1 &238275085 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 1723072912949491731, guid: 064c97976737d3c4c97cb84e53f96ccb,
+  m_CorrespondingSourceObject: {fileID: 8315306791391474060, guid: b5ec33c49692dd842be007ccab9a3c6c,
     type: 3}
-  m_PrefabInstance: {fileID: 41283617}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &244961174 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1723072912949491731, guid: 064c97976737d3c4c97cb84e53f96ccb,
-    type: 3}
-  m_PrefabInstance: {fileID: 882692633}
+  m_PrefabInstance: {fileID: 1147166896}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &247778408
 GameObject:
@@ -754,8 +798,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07d40f9b30e7f0343bcb3404fe1f1e3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kvadrat: {fileID: 465265855}
-  brzinaRotacije: 90
+  kvadrat: {fileID: 538959977}
+  newMaterial: {fileID: 2100000, guid: 7d0d174c856ca7c429b3521142ee8711, type: 2}
+  oldMaterial: {fileID: 2100000, guid: 00b3e427e5fd7694dbf9587ee512728f, type: 2}
+  button: {fileID: 325572106}
 --- !u!4 &250021326
 Transform:
   m_ObjectHideFlags: 0
@@ -783,7 +829,7 @@ PrefabInstance:
         type: 3}
       propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 191015723}
+      objectReference: {fileID: 1177581299}
     - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
       propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -791,8 +837,18 @@ PrefabInstance:
       objectReference: {fileID: 1177581299}
     - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
+      propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Click
+      objectReference: {fileID: 0}
+    - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
+        type: 3}
       propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Click
+      objectReference: {fileID: 0}
+    - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
+        type: 3}
+      propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: RotacijaNaDugme, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
@@ -802,12 +858,12 @@ PrefabInstance:
     - target: {fileID: 8315306790077787368, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.75
+      value: -7.17
       objectReference: {fileID: 0}
     - target: {fileID: 8315306790077787368, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9.01362
+      value: 4.99
       objectReference: {fileID: 0}
     - target: {fileID: 8315306790077787368, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
@@ -854,16 +910,39 @@ PrefabInstance:
       propertyPath: m_Name
       value: ButtonRound13
       objectReference: {fileID: 0}
+    - target: {fileID: 8315306791391474060, guid: b5ec33c49692dd842be007ccab9a3c6c,
+        type: 3}
+      propertyPath: m_Name
+      value: InnerButton13
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b5ec33c49692dd842be007ccab9a3c6c, type: 3}
---- !u!1 &275790717 stripped
+--- !u!1 &292307326 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 1723072912949491731, guid: 064c97976737d3c4c97cb84e53f96ccb,
+  m_CorrespondingSourceObject: {fileID: 5352942842280830843, guid: 064c97976737d3c4c97cb84e53f96ccb,
     type: 3}
-  m_PrefabInstance: {fileID: 1250466033}
+  m_PrefabInstance: {fileID: 143628932}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &298674214 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8315306791391474060, guid: b5ec33c49692dd842be007ccab9a3c6c,
+    type: 3}
+  m_PrefabInstance: {fileID: 614550563}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &309187833 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5352942842280830843, guid: 064c97976737d3c4c97cb84e53f96ccb,
+    type: 3}
+  m_PrefabInstance: {fileID: 1442622085}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &325572106 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8315306791391474060, guid: b5ec33c49692dd842be007ccab9a3c6c,
+    type: 3}
+  m_PrefabInstance: {fileID: 7655743141572167580}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &368622656
 PrefabInstance:
@@ -877,7 +956,7 @@ PrefabInstance:
         type: 3}
       propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 191015723}
+      objectReference: {fileID: 784768312}
     - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
       propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -885,8 +964,18 @@ PrefabInstance:
       objectReference: {fileID: 784768312}
     - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
+      propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Click
+      objectReference: {fileID: 0}
+    - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
+        type: 3}
       propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Click
+      objectReference: {fileID: 0}
+    - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
+        type: 3}
+      propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: RotacijaNaDugme, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
@@ -896,12 +985,12 @@ PrefabInstance:
     - target: {fileID: 8315306790077787368, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.75
+      value: -7.131
       objectReference: {fileID: 0}
     - target: {fileID: 8315306790077787368, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.0136204
+      value: 1.928
       objectReference: {fileID: 0}
     - target: {fileID: 8315306790077787368, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
@@ -948,6 +1037,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ButtonRound5
       objectReference: {fileID: 0}
+    - target: {fileID: 8315306791391474060, guid: b5ec33c49692dd842be007ccab9a3c6c,
+        type: 3}
+      propertyPath: m_Name
+      value: InnerButton5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -959,17 +1053,17 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1147166896}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &397601770 stripped
+--- !u!1 &402101952 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 1723072912949491731, guid: 064c97976737d3c4c97cb84e53f96ccb,
+  m_CorrespondingSourceObject: {fileID: 5352942842280830843, guid: 064c97976737d3c4c97cb84e53f96ccb,
     type: 3}
-  m_PrefabInstance: {fileID: 1943183880}
+  m_PrefabInstance: {fileID: 978734163}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &465265855 stripped
+--- !u!1 &406450349 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 1723072912949491731, guid: 064c97976737d3c4c97cb84e53f96ccb,
+  m_CorrespondingSourceObject: {fileID: 5352942842280830843, guid: 064c97976737d3c4c97cb84e53f96ccb,
     type: 3}
-  m_PrefabInstance: {fileID: 1718760001457313489}
+  m_PrefabInstance: {fileID: 1250466033}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &485773569
 PrefabInstance:
@@ -983,7 +1077,7 @@ PrefabInstance:
         type: 3}
       propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 191015723}
+      objectReference: {fileID: 488472886}
     - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
       propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -991,8 +1085,18 @@ PrefabInstance:
       objectReference: {fileID: 488472886}
     - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
+      propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Click
+      objectReference: {fileID: 0}
+    - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
+        type: 3}
       propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Click
+      objectReference: {fileID: 0}
+    - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
+        type: 3}
+      propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: RotacijaNaDugme, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
@@ -1002,12 +1106,12 @@ PrefabInstance:
     - target: {fileID: 8315306790077787368, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3
+      value: -2.34
       objectReference: {fileID: 0}
     - target: {fileID: 8315306790077787368, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9.01362
+      value: 5.09
       objectReference: {fileID: 0}
     - target: {fileID: 8315306790077787368, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
@@ -1049,10 +1153,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8315306790077787369, guid: b5ec33c49692dd842be007ccab9a3c6c,
+        type: 3}
+      propertyPath: MinDistance
+      value: 1.2803222
+      objectReference: {fileID: 0}
     - target: {fileID: 8315306790077787371, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
       propertyPath: m_Name
       value: ButtonRound14
+      objectReference: {fileID: 0}
+    - target: {fileID: 8315306791391474060, guid: b5ec33c49692dd842be007ccab9a3c6c,
+        type: 3}
+      propertyPath: m_Name
+      value: InnerButton14
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1088,8 +1202,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07d40f9b30e7f0343bcb3404fe1f1e3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kvadrat: {fileID: 575137029}
-  brzinaRotacije: 90
+  kvadrat: {fileID: 309187833}
+  newMaterial: {fileID: 2100000, guid: c132600a0f053fc4baea5a1926d0da31, type: 2}
+  oldMaterial: {fileID: 2100000, guid: 00b3e427e5fd7694dbf9587ee512728f, type: 2}
+  button: {fileID: 979651069}
 --- !u!4 &488472887
 Transform:
   m_ObjectHideFlags: 0
@@ -1105,17 +1221,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1994760823}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &538959977 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5352942842280830843, guid: 064c97976737d3c4c97cb84e53f96ccb,
+    type: 3}
+  m_PrefabInstance: {fileID: 1718760001457313489}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &547466922 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8315306790077787368, guid: b5ec33c49692dd842be007ccab9a3c6c,
     type: 3}
   m_PrefabInstance: {fileID: 7655743141572167580}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &575137029 stripped
+--- !u!1 &577265960 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 1723072912949491731, guid: 064c97976737d3c4c97cb84e53f96ccb,
+  m_CorrespondingSourceObject: {fileID: 8315306791391474060, guid: b5ec33c49692dd842be007ccab9a3c6c,
     type: 3}
-  m_PrefabInstance: {fileID: 1442622085}
+  m_PrefabInstance: {fileID: 999701128}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &606849834 stripped
 Transform:
@@ -1135,7 +1257,7 @@ PrefabInstance:
         type: 3}
       propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 191015723}
+      objectReference: {fileID: 728723996}
     - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
       propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1143,8 +1265,18 @@ PrefabInstance:
       objectReference: {fileID: 728723996}
     - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
+      propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Click
+      objectReference: {fileID: 0}
+    - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
+        type: 3}
       propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Click
+      objectReference: {fileID: 0}
+    - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
+        type: 3}
+      propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: RotacijaNaDugme, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
@@ -1154,12 +1286,12 @@ PrefabInstance:
     - target: {fileID: 8315306790077787368, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.25
+      value: 5.88
       objectReference: {fileID: 0}
     - target: {fileID: 8315306790077787368, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.0136204
+      value: 2.13
       objectReference: {fileID: 0}
     - target: {fileID: 8315306790077787368, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
@@ -1201,10 +1333,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8315306790077787369, guid: b5ec33c49692dd842be007ccab9a3c6c,
+        type: 3}
+      propertyPath: MinDistance
+      value: 0.8195083
+      objectReference: {fileID: 0}
     - target: {fileID: 8315306790077787371, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
       propertyPath: m_Name
       value: ButtonRound8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8315306791391474060, guid: b5ec33c49692dd842be007ccab9a3c6c,
+        type: 3}
+      propertyPath: m_Name
+      value: InnerButton8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1242,7 +1384,7 @@ PrefabInstance:
     - target: {fileID: 2879170064529404442, guid: 064c97976737d3c4c97cb84e53f96ccb,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.964
+      value: 2.15
       objectReference: {fileID: 0}
     - target: {fileID: 2879170064529404442, guid: 064c97976737d3c4c97cb84e53f96ccb,
         type: 3}
@@ -1306,6 +1448,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 250845532}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &699362395 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5352942842280830843, guid: 064c97976737d3c4c97cb84e53f96ccb,
+    type: 3}
+  m_PrefabInstance: {fileID: 41283617}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &699761198 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8315306790077787368, guid: b5ec33c49692dd842be007ccab9a3c6c,
@@ -1343,7 +1491,7 @@ PrefabInstance:
     - target: {fileID: 2879170064529404442, guid: 064c97976737d3c4c97cb84e53f96ccb,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.964
+      value: 5.133
       objectReference: {fileID: 0}
     - target: {fileID: 2879170064529404442, guid: 064c97976737d3c4c97cb84e53f96ccb,
         type: 3}
@@ -1430,8 +1578,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07d40f9b30e7f0343bcb3404fe1f1e3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kvadrat: {fileID: 275790717}
-  brzinaRotacije: 90
+  kvadrat: {fileID: 406450349}
+  newMaterial: {fileID: 2100000, guid: 1e2522040a0c5eb4d80279b85246912b, type: 2}
+  oldMaterial: {fileID: 2100000, guid: 00b3e427e5fd7694dbf9587ee512728f, type: 2}
+  button: {fileID: 2078362191}
 --- !u!4 &708064722
 Transform:
   m_ObjectHideFlags: 0
@@ -1447,6 +1597,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1994760823}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &714568373 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5352942842280830843, guid: 064c97976737d3c4c97cb84e53f96ccb,
+    type: 3}
+  m_PrefabInstance: {fileID: 1652704645}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &722876425 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8315306791391474060, guid: b5ec33c49692dd842be007ccab9a3c6c,
+    type: 3}
+  m_PrefabInstance: {fileID: 2140101272}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &728723995
 GameObject:
   m_ObjectHideFlags: 0
@@ -1476,8 +1638,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07d40f9b30e7f0343bcb3404fe1f1e3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kvadrat: {fileID: 899239137}
-  brzinaRotacije: 90
+  kvadrat: {fileID: 292307326}
+  newMaterial: {fileID: 2100000, guid: df3d176765477d5468f7cabbc78e456e, type: 2}
+  oldMaterial: {fileID: 2100000, guid: 00b3e427e5fd7694dbf9587ee512728f, type: 2}
+  button: {fileID: 298674214}
 --- !u!4 &728723997
 Transform:
   m_ObjectHideFlags: 0
@@ -1522,8 +1686,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07d40f9b30e7f0343bcb3404fe1f1e3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kvadrat: {fileID: 955389826}
-  brzinaRotacije: 90
+  kvadrat: {fileID: 402101952}
+  newMaterial: {fileID: 2100000, guid: 5a50e3e28e526da42a01995ffeb7d85d, type: 2}
+  oldMaterial: {fileID: 2100000, guid: 00b3e427e5fd7694dbf9587ee512728f, type: 2}
+  button: {fileID: 1726624954}
 --- !u!4 &784768313
 Transform:
   m_ObjectHideFlags: 0
@@ -1576,7 +1742,7 @@ PrefabInstance:
     - target: {fileID: 2879170064529404442, guid: 064c97976737d3c4c97cb84e53f96ccb,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.964
+      value: 5.23
       objectReference: {fileID: 0}
     - target: {fileID: 2879170064529404442, guid: 064c97976737d3c4c97cb84e53f96ccb,
         type: 3}
@@ -1665,7 +1831,7 @@ PrefabInstance:
     - target: {fileID: 2879170064529404442, guid: 064c97976737d3c4c97cb84e53f96ccb,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.4639997
+      value: 3.67
       objectReference: {fileID: 0}
     - target: {fileID: 2879170064529404442, guid: 064c97976737d3c4c97cb84e53f96ccb,
         type: 3}
@@ -1723,11 +1889,11 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 882692633}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &899239137 stripped
+--- !u!1 &889073542 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 1723072912949491731, guid: 064c97976737d3c4c97cb84e53f96ccb,
+  m_CorrespondingSourceObject: {fileID: 5352942842280830843, guid: 064c97976737d3c4c97cb84e53f96ccb,
     type: 3}
-  m_PrefabInstance: {fileID: 143628932}
+  m_PrefabInstance: {fileID: 882692633}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &906701523
 PrefabInstance:
@@ -1807,6 +1973,18 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ac7df741a9c0a2418ec19477729ee3d, type: 3}
+--- !u!1 &907420925 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8315306791391474060, guid: b5ec33c49692dd842be007ccab9a3c6c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1228279922}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &952623175 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5352942842280830843, guid: 064c97976737d3c4c97cb84e53f96ccb,
+    type: 3}
+  m_PrefabInstance: {fileID: 1424830327}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &954524678
 GameObject:
   m_ObjectHideFlags: 0
@@ -1854,12 +2032,6 @@ Transform:
   - {fileID: 375680525}
   m_Father: {fileID: 247778409}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &955389826 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1723072912949491731, guid: 064c97976737d3c4c97cb84e53f96ccb,
-    type: 3}
-  m_PrefabInstance: {fileID: 978734163}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &957787609 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8315306790077787368, guid: b5ec33c49692dd842be007ccab9a3c6c,
@@ -1897,7 +2069,7 @@ PrefabInstance:
     - target: {fileID: 2879170064529404442, guid: 064c97976737d3c4c97cb84e53f96ccb,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.9639997
+      value: 2.05
       objectReference: {fileID: 0}
     - target: {fileID: 2879170064529404442, guid: 064c97976737d3c4c97cb84e53f96ccb,
         type: 3}
@@ -1955,6 +2127,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 978734163}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &979651069 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8315306791391474060, guid: b5ec33c49692dd842be007ccab9a3c6c,
+    type: 3}
+  m_PrefabInstance: {fileID: 485773569}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &987850882
 GameObject:
   m_ObjectHideFlags: 0
@@ -1984,8 +2162,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07d40f9b30e7f0343bcb3404fe1f1e3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kvadrat: {fileID: 1957326582}
-  brzinaRotacije: 90
+  kvadrat: {fileID: 1665718646}
+  newMaterial: {fileID: 2100000, guid: 1d9bc58320eafef4cb30f7b624dd9f82, type: 2}
+  oldMaterial: {fileID: 2100000, guid: 00b3e427e5fd7694dbf9587ee512728f, type: 2}
+  button: {fileID: 166428233}
 --- !u!4 &987850884
 Transform:
   m_ObjectHideFlags: 0
@@ -2013,7 +2193,7 @@ PrefabInstance:
         type: 3}
       propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 191015723}
+      objectReference: {fileID: 2120867167}
     - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
       propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -2021,8 +2201,18 @@ PrefabInstance:
       objectReference: {fileID: 2120867167}
     - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
+      propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Click
+      objectReference: {fileID: 0}
+    - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
+        type: 3}
       propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Click
+      objectReference: {fileID: 0}
+    - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
+        type: 3}
+      propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: RotacijaNaDugme, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
@@ -2032,12 +2222,12 @@ PrefabInstance:
     - target: {fileID: 8315306790077787368, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.25
+      value: 5.89
       objectReference: {fileID: 0}
     - target: {fileID: 8315306790077787368, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.0136204
+      value: 0.54
       objectReference: {fileID: 0}
     - target: {fileID: 8315306790077787368, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
@@ -2084,11 +2274,28 @@ PrefabInstance:
       propertyPath: m_Name
       value: ButtonRound4
       objectReference: {fileID: 0}
+    - target: {fileID: 8315306791391474060, guid: b5ec33c49692dd842be007ccab9a3c6c,
+        type: 3}
+      propertyPath: m_Name
+      value: InnerButton4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b5ec33c49692dd842be007ccab9a3c6c, type: 3}
+--- !u!1 &1067929437 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8315306791391474060, guid: b5ec33c49692dd842be007ccab9a3c6c,
+    type: 3}
+  m_PrefabInstance: {fileID: 220692474}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1122447188 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5352942842280830843, guid: 064c97976737d3c4c97cb84e53f96ccb,
+    type: 3}
+  m_PrefabInstance: {fileID: 705923414}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1128512529 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8315306790077787368, guid: b5ec33c49692dd842be007ccab9a3c6c,
@@ -2113,7 +2320,7 @@ PrefabInstance:
         type: 3}
       propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 191015723}
+      objectReference: {fileID: 1384105158}
     - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
       propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -2121,8 +2328,18 @@ PrefabInstance:
       objectReference: {fileID: 1384105158}
     - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
+      propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Click
+      objectReference: {fileID: 0}
+    - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
+        type: 3}
       propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Click
+      objectReference: {fileID: 0}
+    - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
+        type: 3}
+      propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: RotacijaNaDugme, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
@@ -2132,12 +2349,12 @@ PrefabInstance:
     - target: {fileID: 8315306790077787368, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.25
+      value: 5.89
       objectReference: {fileID: 0}
     - target: {fileID: 8315306790077787368, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9.01362
+      value: 5.18
       objectReference: {fileID: 0}
     - target: {fileID: 8315306790077787368, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
@@ -2184,6 +2401,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ButtonRound16
       objectReference: {fileID: 0}
+    - target: {fileID: 8315306791391474060, guid: b5ec33c49692dd842be007ccab9a3c6c,
+        type: 3}
+      propertyPath: m_Name
+      value: InnerButton16
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2218,8 +2440,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07d40f9b30e7f0343bcb3404fe1f1e3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kvadrat: {fileID: 1296328030}
-  brzinaRotacije: 90
+  kvadrat: {fileID: 714568373}
+  newMaterial: {fileID: 2100000, guid: c132600a0f053fc4baea5a1926d0da31, type: 2}
+  oldMaterial: {fileID: 2100000, guid: 00b3e427e5fd7694dbf9587ee512728f, type: 2}
+  button: {fileID: 1282135300}
 --- !u!4 &1177581300
 Transform:
   m_ObjectHideFlags: 0
@@ -2235,11 +2459,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1994760823}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1201262866 stripped
+--- !u!1 &1207467209 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 1723072912949491731, guid: 064c97976737d3c4c97cb84e53f96ccb,
+  m_CorrespondingSourceObject: {fileID: 8315306791391474060, guid: b5ec33c49692dd842be007ccab9a3c6c,
     type: 3}
-  m_PrefabInstance: {fileID: 705923414}
+  m_PrefabInstance: {fileID: 1700754119}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1228279922
 PrefabInstance:
@@ -2253,7 +2477,7 @@ PrefabInstance:
         type: 3}
       propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 191015723}
+      objectReference: {fileID: 1532040103}
     - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
       propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -2261,8 +2485,18 @@ PrefabInstance:
       objectReference: {fileID: 1532040103}
     - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
+      propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Click
+      objectReference: {fileID: 0}
+    - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
+        type: 3}
       propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Click
+      objectReference: {fileID: 0}
+    - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
+        type: 3}
+      propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: RotacijaNaDugme, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
@@ -2272,12 +2506,12 @@ PrefabInstance:
     - target: {fileID: 8315306790077787368, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1
+      value: 1.71
       objectReference: {fileID: 0}
     - target: {fileID: 8315306790077787368, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.2636204
+      value: 3.63
       objectReference: {fileID: 0}
     - target: {fileID: 8315306790077787368, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
@@ -2324,6 +2558,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ButtonRound11
       objectReference: {fileID: 0}
+    - target: {fileID: 8315306791391474060, guid: b5ec33c49692dd842be007ccab9a3c6c,
+        type: 3}
+      propertyPath: m_Name
+      value: InnerButton11
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2341,7 +2580,7 @@ PrefabInstance:
         type: 3}
       propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 191015723}
+      objectReference: {fileID: 1782956821}
     - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
       propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -2349,8 +2588,18 @@ PrefabInstance:
       objectReference: {fileID: 1782956821}
     - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
+      propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Click
+      objectReference: {fileID: 0}
+    - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
+        type: 3}
       propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Click
+      objectReference: {fileID: 0}
+    - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
+        type: 3}
+      propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: RotacijaNaDugme, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
@@ -2360,12 +2609,12 @@ PrefabInstance:
     - target: {fileID: 8315306790077787368, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.25
+      value: 5.89
       objectReference: {fileID: 0}
     - target: {fileID: 8315306790077787368, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.2636204
+      value: 3.72
       objectReference: {fileID: 0}
     - target: {fileID: 8315306790077787368, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
@@ -2412,6 +2661,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ButtonRound12
       objectReference: {fileID: 0}
+    - target: {fileID: 8315306791391474060, guid: b5ec33c49692dd842be007ccab9a3c6c,
+        type: 3}
+      propertyPath: m_Name
+      value: InnerButton12
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2448,7 +2702,7 @@ PrefabInstance:
     - target: {fileID: 2879170064529404442, guid: 064c97976737d3c4c97cb84e53f96ccb,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.7139997
+      value: 3.7
       objectReference: {fileID: 0}
     - target: {fileID: 2879170064529404442, guid: 064c97976737d3c4c97cb84e53f96ccb,
         type: 3}
@@ -2516,6 +2770,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1250466033}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1282135300 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8315306791391474060, guid: b5ec33c49692dd842be007ccab9a3c6c,
+    type: 3}
+  m_PrefabInstance: {fileID: 250845532}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1293844828
 GameObject:
   m_ObjectHideFlags: 0
@@ -2544,7 +2804,7 @@ Transform:
   m_GameObject: {fileID: 1293844828}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.55, z: 10.5}
+  m_LocalPosition: {x: 0, y: 10.05, z: 10.5}
   m_LocalScale: {x: 20, y: 20, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2621,12 +2881,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1293844828}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1296328030 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1723072912949491731, guid: 064c97976737d3c4c97cb84e53f96ccb,
-    type: 3}
-  m_PrefabInstance: {fileID: 1652704645}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1306592319 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8315306790077787368, guid: b5ec33c49692dd842be007ccab9a3c6c,
@@ -2664,7 +2918,7 @@ PrefabInstance:
     - target: {fileID: 2879170064529404442, guid: 064c97976737d3c4c97cb84e53f96ccb,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.214
+      value: 0.569
       objectReference: {fileID: 0}
     - target: {fileID: 2879170064529404442, guid: 064c97976737d3c4c97cb84e53f96ccb,
         type: 3}
@@ -2722,6 +2976,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1345059879}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1355318175 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5352942842280830843, guid: 064c97976737d3c4c97cb84e53f96ccb,
+    type: 3}
+  m_PrefabInstance: {fileID: 1345059879}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1367386320 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8315306791391474060, guid: b5ec33c49692dd842be007ccab9a3c6c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1567452485}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1384105156
 GameObject:
   m_ObjectHideFlags: 0
@@ -2766,14 +3032,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07d40f9b30e7f0343bcb3404fe1f1e3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kvadrat: {fileID: 1201262866}
-  brzinaRotacije: 90
---- !u!1 &1408226564 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1723072912949491731, guid: 064c97976737d3c4c97cb84e53f96ccb,
-    type: 3}
-  m_PrefabInstance: {fileID: 134045004}
-  m_PrefabAsset: {fileID: 0}
+  kvadrat: {fileID: 1122447188}
+  newMaterial: {fileID: 2100000, guid: 1d9bc58320eafef4cb30f7b624dd9f82, type: 2}
+  oldMaterial: {fileID: 2100000, guid: 00b3e427e5fd7694dbf9587ee512728f, type: 2}
+  button: {fileID: 238275085}
 --- !u!1001 &1424830327
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2805,7 +3067,7 @@ PrefabInstance:
     - target: {fileID: 2879170064529404442, guid: 064c97976737d3c4c97cb84e53f96ccb,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.7139997
+      value: 3.627
       objectReference: {fileID: 0}
     - target: {fileID: 2879170064529404442, guid: 064c97976737d3c4c97cb84e53f96ccb,
         type: 3}
@@ -2863,6 +3125,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1424830327}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1437776313 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5352942842280830843, guid: 064c97976737d3c4c97cb84e53f96ccb,
+    type: 3}
+  m_PrefabInstance: {fileID: 1943183880}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1442622085
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2894,7 +3162,7 @@ PrefabInstance:
     - target: {fileID: 2879170064529404442, guid: 064c97976737d3c4c97cb84e53f96ccb,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.964
+      value: 5.24
       objectReference: {fileID: 0}
     - target: {fileID: 2879170064529404442, guid: 064c97976737d3c4c97cb84e53f96ccb,
         type: 3}
@@ -2952,12 +3220,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1442622085}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1482235315 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1723072912949491731, guid: 064c97976737d3c4c97cb84e53f96ccb,
-    type: 3}
-  m_PrefabInstance: {fileID: 626430711}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1509434320
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2989,7 +3251,7 @@ PrefabInstance:
     - target: {fileID: 2879170064529404442, guid: 064c97976737d3c4c97cb84e53f96ccb,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.964
+      value: 2.17
       objectReference: {fileID: 0}
     - target: {fileID: 2879170064529404442, guid: 064c97976737d3c4c97cb84e53f96ccb,
         type: 3}
@@ -3183,8 +3445,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07d40f9b30e7f0343bcb3404fe1f1e3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kvadrat: {fileID: 244961174}
-  brzinaRotacije: 90
+  kvadrat: {fileID: 889073542}
+  newMaterial: {fileID: 2100000, guid: 829e6988ac426e748b712ea4b08ebe4e, type: 2}
+  oldMaterial: {fileID: 2100000, guid: 00b3e427e5fd7694dbf9587ee512728f, type: 2}
+  button: {fileID: 907420925}
 --- !u!4 &1532040104
 Transform:
   m_ObjectHideFlags: 0
@@ -3212,7 +3476,7 @@ PrefabInstance:
         type: 3}
       propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 191015723}
+      objectReference: {fileID: 2029033716}
     - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
       propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -3220,8 +3484,18 @@ PrefabInstance:
       objectReference: {fileID: 2029033716}
     - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
+      propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Click
+      objectReference: {fileID: 0}
+    - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
+        type: 3}
       propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Click
+      objectReference: {fileID: 0}
+    - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
+        type: 3}
+      propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: RotacijaNaDugme, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
@@ -3231,12 +3505,12 @@ PrefabInstance:
     - target: {fileID: 8315306790077787368, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1
+      value: 1.68
       objectReference: {fileID: 0}
     - target: {fileID: 8315306790077787368, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.0136204
+      value: 2.14
       objectReference: {fileID: 0}
     - target: {fileID: 8315306790077787368, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
@@ -3283,6 +3557,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ButtonRound7
       objectReference: {fileID: 0}
+    - target: {fileID: 8315306791391474060, guid: b5ec33c49692dd842be007ccab9a3c6c,
+        type: 3}
+      propertyPath: m_Name
+      value: InnerButton7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3300,7 +3579,7 @@ PrefabInstance:
         type: 3}
       propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 191015723}
+      objectReference: {fileID: 987850883}
     - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
       propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -3308,8 +3587,18 @@ PrefabInstance:
       objectReference: {fileID: 987850883}
     - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
+      propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Click
+      objectReference: {fileID: 0}
+    - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
+        type: 3}
       propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Click
+      objectReference: {fileID: 0}
+    - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
+        type: 3}
+      propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: RotacijaNaDugme, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
@@ -3319,12 +3608,12 @@ PrefabInstance:
     - target: {fileID: 8315306790077787368, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1
+      value: 1.62
       objectReference: {fileID: 0}
     - target: {fileID: 8315306790077787368, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9.01362
+      value: 5.22
       objectReference: {fileID: 0}
     - target: {fileID: 8315306790077787368, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
@@ -3371,6 +3660,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ButtonRound15
       objectReference: {fileID: 0}
+    - target: {fileID: 8315306791391474060, guid: b5ec33c49692dd842be007ccab9a3c6c,
+        type: 3}
+      propertyPath: m_Name
+      value: InnerButton15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3407,7 +3701,7 @@ PrefabInstance:
     - target: {fileID: 2879170064529404442, guid: 064c97976737d3c4c97cb84e53f96ccb,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.964
+      value: 5.14
       objectReference: {fileID: 0}
     - target: {fileID: 2879170064529404442, guid: 064c97976737d3c4c97cb84e53f96ccb,
         type: 3}
@@ -3475,6 +3769,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1652704645}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1665718646 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5352942842280830843, guid: 064c97976737d3c4c97cb84e53f96ccb,
+    type: 3}
+  m_PrefabInstance: {fileID: 846056040}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1695654683
 GameObject:
   m_ObjectHideFlags: 0
@@ -3531,7 +3831,7 @@ PrefabInstance:
         type: 3}
       propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 191015723}
+      objectReference: {fileID: 1870020995}
     - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
       propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -3539,8 +3839,18 @@ PrefabInstance:
       objectReference: {fileID: 1870020995}
     - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
+      propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Click
+      objectReference: {fileID: 0}
+    - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
+        type: 3}
       propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Click
+      objectReference: {fileID: 0}
+    - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
+        type: 3}
+      propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: RotacijaNaDugme, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
@@ -3550,12 +3860,12 @@ PrefabInstance:
     - target: {fileID: 8315306790077787368, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.75
+      value: -7.14
       objectReference: {fileID: 0}
     - target: {fileID: 8315306790077787368, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.2636204
+      value: 3.414
       objectReference: {fileID: 0}
     - target: {fileID: 8315306790077787368, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
@@ -3602,22 +3912,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: ButtonRound9
       objectReference: {fileID: 0}
+    - target: {fileID: 8315306791391474060, guid: b5ec33c49692dd842be007ccab9a3c6c,
+        type: 3}
+      propertyPath: m_Name
+      value: InnerButton9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b5ec33c49692dd842be007ccab9a3c6c, type: 3}
+--- !u!1 &1726624954 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8315306791391474060, guid: b5ec33c49692dd842be007ccab9a3c6c,
+    type: 3}
+  m_PrefabInstance: {fileID: 368622656}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1734716279 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8315306790077787368, guid: b5ec33c49692dd842be007ccab9a3c6c,
     type: 3}
   m_PrefabInstance: {fileID: 2140101272}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1741532145 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1723072912949491731, guid: 064c97976737d3c4c97cb84e53f96ccb,
-    type: 3}
-  m_PrefabInstance: {fileID: 1509434320}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1782956820
 GameObject:
@@ -3648,8 +3963,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07d40f9b30e7f0343bcb3404fe1f1e3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kvadrat: {fileID: 45806935}
-  brzinaRotacije: 90
+  kvadrat: {fileID: 952623175}
+  newMaterial: {fileID: 2100000, guid: 829e6988ac426e748b712ea4b08ebe4e, type: 2}
+  oldMaterial: {fileID: 2100000, guid: 00b3e427e5fd7694dbf9587ee512728f, type: 2}
+  button: {fileID: 30293361}
 --- !u!4 &1782956822
 Transform:
   m_ObjectHideFlags: 0
@@ -3694,8 +4011,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07d40f9b30e7f0343bcb3404fe1f1e3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kvadrat: {fileID: 228967845}
-  brzinaRotacije: 90
+  kvadrat: {fileID: 699362395}
+  newMaterial: {fileID: 2100000, guid: 1e2522040a0c5eb4d80279b85246912b, type: 2}
+  oldMaterial: {fileID: 2100000, guid: 00b3e427e5fd7694dbf9587ee512728f, type: 2}
+  button: {fileID: 1207467209}
 --- !u!4 &1870020996
 Transform:
   m_ObjectHideFlags: 0
@@ -3744,6 +4063,12 @@ Transform:
   - {fileID: 1293844829}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1886599030 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5352942842280830843, guid: 064c97976737d3c4c97cb84e53f96ccb,
+    type: 3}
+  m_PrefabInstance: {fileID: 1509434320}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1907985125
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3852,8 +4177,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07d40f9b30e7f0343bcb3404fe1f1e3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kvadrat: {fileID: 1482235315}
-  brzinaRotacije: 90
+  kvadrat: {fileID: 3475197}
+  newMaterial: {fileID: 2100000, guid: 5a50e3e28e526da42a01995ffeb7d85d, type: 2}
+  oldMaterial: {fileID: 2100000, guid: 00b3e427e5fd7694dbf9587ee512728f, type: 2}
+  button: {fileID: 160604507}
 --- !u!4 &1935784074
 Transform:
   m_ObjectHideFlags: 0
@@ -3900,7 +4227,7 @@ PrefabInstance:
     - target: {fileID: 2879170064529404442, guid: 064c97976737d3c4c97cb84e53f96ccb,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.214
+      value: 0.578
       objectReference: {fileID: 0}
     - target: {fileID: 2879170064529404442, guid: 064c97976737d3c4c97cb84e53f96ccb,
         type: 3}
@@ -3957,12 +4284,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2879170064529404442, guid: 064c97976737d3c4c97cb84e53f96ccb,
     type: 3}
   m_PrefabInstance: {fileID: 1943183880}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1957326582 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1723072912949491731, guid: 064c97976737d3c4c97cb84e53f96ccb,
-    type: 3}
-  m_PrefabInstance: {fileID: 846056040}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1966133976 stripped
 Transform:
@@ -4029,7 +4350,7 @@ PrefabInstance:
         type: 3}
       propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 191015723}
+      objectReference: {fileID: 708064721}
     - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
       propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -4037,8 +4358,18 @@ PrefabInstance:
       objectReference: {fileID: 708064721}
     - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
+      propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Click
+      objectReference: {fileID: 0}
+    - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
+        type: 3}
       propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Click
+      objectReference: {fileID: 0}
+    - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
+        type: 3}
+      propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: RotacijaNaDugme, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
@@ -4048,12 +4379,12 @@ PrefabInstance:
     - target: {fileID: 8315306790077787368, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3
+      value: -2.37
       objectReference: {fileID: 0}
     - target: {fileID: 8315306790077787368, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.2636204
+      value: 3.58
       objectReference: {fileID: 0}
     - target: {fileID: 8315306790077787368, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
@@ -4100,6 +4431,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ButtonRound10
       objectReference: {fileID: 0}
+    - target: {fileID: 8315306791391474060, guid: b5ec33c49692dd842be007ccab9a3c6c,
+        type: 3}
+      propertyPath: m_Name
+      value: InnerButton10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4140,8 +4476,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07d40f9b30e7f0343bcb3404fe1f1e3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kvadrat: {fileID: 1741532145}
-  brzinaRotacije: 90
+  kvadrat: {fileID: 1886599030}
+  newMaterial: {fileID: 2100000, guid: df3d176765477d5468f7cabbc78e456e, type: 2}
+  oldMaterial: {fileID: 2100000, guid: 00b3e427e5fd7694dbf9587ee512728f, type: 2}
+  button: {fileID: 1367386320}
 --- !u!4 &2029033717
 Transform:
   m_ObjectHideFlags: 0
@@ -4204,6 +4542,12 @@ Transform:
   - {fileID: 882692634}
   m_Father: {fileID: 247778409}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2078362191 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8315306791391474060, guid: b5ec33c49692dd842be007ccab9a3c6c,
+    type: 3}
+  m_PrefabInstance: {fileID: 2004102156}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2088347716
 GameObject:
   m_ObjectHideFlags: 0
@@ -4233,8 +4577,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07d40f9b30e7f0343bcb3404fe1f1e3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kvadrat: {fileID: 397601770}
-  brzinaRotacije: 90
+  kvadrat: {fileID: 1437776313}
+  newMaterial: {fileID: 2100000, guid: 7d0d174c856ca7c429b3521142ee8711, type: 2}
+  oldMaterial: {fileID: 2100000, guid: 00b3e427e5fd7694dbf9587ee512728f, type: 2}
+  button: {fileID: 722876425}
 --- !u!4 &2088347718
 Transform:
   m_ObjectHideFlags: 0
@@ -4279,8 +4625,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07d40f9b30e7f0343bcb3404fe1f1e3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kvadrat: {fileID: 86793235}
-  brzinaRotacije: 90
+  kvadrat: {fileID: 1355318175}
+  newMaterial: {fileID: 2100000, guid: ed6e2541daf00a04ba4206ad3e1f62db, type: 2}
+  oldMaterial: {fileID: 2100000, guid: 00b3e427e5fd7694dbf9587ee512728f, type: 2}
+  button: {fileID: 577265960}
 --- !u!4 &2120867168
 Transform:
   m_ObjectHideFlags: 0
@@ -4314,7 +4662,7 @@ PrefabInstance:
         type: 3}
       propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 191015723}
+      objectReference: {fileID: 2088347717}
     - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
       propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -4322,8 +4670,18 @@ PrefabInstance:
       objectReference: {fileID: 2088347717}
     - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
+      propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Click
+      objectReference: {fileID: 0}
+    - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
+        type: 3}
       propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Click
+      objectReference: {fileID: 0}
+    - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
+        type: 3}
+      propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: RotacijaNaDugme, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
@@ -4333,12 +4691,12 @@ PrefabInstance:
     - target: {fileID: 8315306790077787368, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.25
+      value: -2.42
       objectReference: {fileID: 0}
     - target: {fileID: 8315306790077787368, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.0136204
+      value: 0.48
       objectReference: {fileID: 0}
     - target: {fileID: 8315306790077787368, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
@@ -4385,6 +4743,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ButtonRound2
       objectReference: {fileID: 0}
+    - target: {fileID: 8315306791391474060, guid: b5ec33c49692dd842be007ccab9a3c6c,
+        type: 3}
+      propertyPath: m_Name
+      value: InnerButton2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4411,7 +4774,7 @@ PrefabInstance:
     - target: {fileID: 2879170064529404442, guid: 064c97976737d3c4c97cb84e53f96ccb,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.214
+      value: 0.553
       objectReference: {fileID: 0}
     - target: {fileID: 2879170064529404442, guid: 064c97976737d3c4c97cb84e53f96ccb,
         type: 3}
@@ -4481,21 +4844,31 @@ PrefabInstance:
         type: 3}
       propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 191015723}
+      objectReference: {fileID: 250021325}
     - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
       propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 250021325}
+    - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
+        type: 3}
+      propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Click
+      objectReference: {fileID: 0}
+    - target: {fileID: 3362229504286109397, guid: b5ec33c49692dd842be007ccab9a3c6c,
+        type: 3}
+      propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: RotacijaNaDugme, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 8315306790077787368, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.75
+      value: -7.098
       objectReference: {fileID: 0}
     - target: {fileID: 8315306790077787368, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.0136204
+      value: 0.444
       objectReference: {fileID: 0}
     - target: {fileID: 8315306790077787368, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
@@ -4541,6 +4914,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ButtonRound1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8315306791391474032, guid: b5ec33c49692dd842be007ccab9a3c6c,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8315306791391474060, guid: b5ec33c49692dd842be007ccab9a3c6c,
+        type: 3}
+      propertyPath: m_Name
+      value: InnerButton1
       objectReference: {fileID: 0}
     - target: {fileID: 8315306791391474061, guid: b5ec33c49692dd842be007ccab9a3c6c,
         type: 3}
