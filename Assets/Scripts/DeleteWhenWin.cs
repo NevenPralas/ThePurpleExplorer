@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class DeleteWhenWin : MonoBehaviour
 {
-    private Renderer renderer;
+    private Renderer rendererr;
     private Collider BoxCollider;
 
     void Start()
     {
-        renderer = GetComponent<Renderer>();
+        rendererr = GetComponent<Renderer>();
         BoxCollider = GetComponent<BoxCollider>();
     }
 
@@ -18,7 +18,7 @@ public class DeleteWhenWin : MonoBehaviour
     {
         if(GlobalMemory.pobjeda == 16)
         {
-            renderer.enabled = false;
+            rendererr.enabled = false;
             BoxCollider.enabled = false;
         }
     }
