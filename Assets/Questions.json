@@ -1,0 +1,64 @@
+{
+    "questions":
+    [
+        {
+            "id": 1,
+            "question": "How tall is the Eiffel Tower?",
+            "choiceA": "30 m",
+            "choiceB": "300 m",
+            "choiceC": "330 m",
+            "choiceD": "350 m",
+            "answer": "C",
+            "imagepath" : "Images/eiffel"
+        },
+
+        {
+            "id": 2,
+            "question": "Which river flows through London?",
+            "choiceA": "River Severn",
+            "choiceB": "River Thames",
+            "choiceC": "River Trent",
+            "choiceD": "River Wye",
+            "answer": "B",
+            "imagepath" : "Images/thames"
+        },
+
+        {
+            "id": 3,
+            "question": "How many states constitute the Federal Republic of Germany?",
+            "choiceA": "13",
+            "choiceB": "14",
+            "choiceC": "15",
+            "choiceD": "16",
+            "answer": "D",
+            "imagepath" : "Images/reichstag"
+        },
+
+        {
+            "id": 4,
+            "question": "Which is the largest island in Italy?",
+            "choiceA": "Sicily",
+            "choiceB": "Sardinia",
+            "choiceC": "Pantelleria",
+            "choiceD": "Capri",
+            "answer": "A",
+            "imagepath" : "Images/liguria"
+        },
+
+        {
+            "id": 5,
+            "question": "What is the capital of the European Union?",
+            "choiceA": "Brussels",
+            "choiceB": "Paris",
+            "choiceC": "Berlin",
+            "choiceD": "Amsterdam",
+            "answer": "A",
+            "imagepath" : "Images/eu_flag"
+        }
+
+
+
+    ]
+
+
+}
