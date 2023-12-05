@@ -4717,6 +4717,7 @@ GameObject:
   - component: {fileID: 1449989491}
   - component: {fileID: 1449989490}
   - component: {fileID: 1449989489}
+  - component: {fileID: 1449989496}
   m_Layer: 5
   m_Name: AFRIKA TP
   m_TagString: Untagged
@@ -4871,6 +4872,21 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &1449989496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1449989487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0070bfbad2620a4c8f521728d971cae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  image: {fileID: 1229370124}
+  button: {fileID: 1555910902}
+  text: {fileID: 1509242854}
 --- !u!1001 &1461082226
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5771,6 +5787,7 @@ GameObject:
   - component: {fileID: 1667175788}
   - component: {fileID: 1667175787}
   - component: {fileID: 1667175786}
+  - component: {fileID: 1667175793}
   m_Layer: 5
   m_Name: AUSTRALIA TP
   m_TagString: Untagged
@@ -5925,6 +5942,21 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &1667175793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1667175784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0070bfbad2620a4c8f521728d971cae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  image: {fileID: 949960685}
+  button: {fileID: 2096729396}
+  text: {fileID: 1250268276}
 --- !u!1001 &1668380016
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6366,6 +6398,7 @@ GameObject:
   - component: {fileID: 1750615676}
   - component: {fileID: 1750615675}
   - component: {fileID: 1750615674}
+  - component: {fileID: 1750615681}
   m_Layer: 5
   m_Name: EUROPE TP
   m_TagString: Untagged
@@ -6520,6 +6553,21 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &1750615681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1750615672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0070bfbad2620a4c8f521728d971cae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  image: {fileID: 422312857}
+  button: {fileID: 1951052050}
+  text: {fileID: 1170539648}
 --- !u!1001 &1804144845
 PrefabInstance:
   m_ObjectHideFlags: 0
