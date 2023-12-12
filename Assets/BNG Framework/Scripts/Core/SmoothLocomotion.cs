@@ -16,20 +16,20 @@ namespace BNG {
         public PlayerControllerType ControllerType = PlayerControllerType.CharacterController;
 
         [Header("CharacterController Settings : ")]
-        public float MovementSpeed = 1.25f;
+        public float MovementSpeed = 5.0f;
 
         [Header("Rigidbody Settings : ")]
         [Tooltip("How much force to apply to the rigidbody when the player is grounded")]
-        public float MovementForce = 500f;
+        public float MovementForce = 1000f;
 
         [Tooltip("Maximium velocity of the player's rigidbody in X, Z. Used to constrain max speed movement.")]
-        public float MaxHorizontalVelocity = 5f;
+        public float MaxHorizontalVelocity = 10f;
 
         [Tooltip("Maximium velocity of the player's rigidbody on the Y axis. Used to constrain max vertical movement, such as jumping and falling.")]
-        public float MaxVerticalVelocity = 10f;
+        public float MaxVerticalVelocity = 15f;
 
         [Tooltip("How far up from the characters feet is considered a step. Anything below this will be considered grounded.")]
-        public float StepHeight = 0.1f;
+        public float StepHeight = 0.2f;
 
         [Tooltip("Maximium angle a slope can be to be considered grounded. Negated if contact distance from the player's feet is less than StepHeight.")]
         public float MaxSlopeAngle = 45f;
@@ -71,7 +71,7 @@ namespace BNG {
         public bool RequireAppFocus = true;
 
         [Header("Sprint : ")]
-        public float SprintSpeed = 1.5f;
+        public float SprintSpeed = 5.0f;
 
         [Tooltip("The key(s) to use to initiate sprint. You can also override the SprintKeyDown() function to determine your sprint criteria.")]
         public List<ControllerBinding> SprintInput = new List<ControllerBinding>() { ControllerBinding.None };
@@ -80,8 +80,8 @@ namespace BNG {
         public InputActionReference SprintAction;
 
         [Header("Strafe : ")]
-        public float StrafeSpeed = 1f;
-        public float StrafeSprintSpeed = 1.25f;
+        public float StrafeSpeed = 4f;
+        public float StrafeSprintSpeed = 5f;
 
         [Header("Jump : ")]
         [Tooltip("Amount of 'force' to apply to the player during Jump")]
