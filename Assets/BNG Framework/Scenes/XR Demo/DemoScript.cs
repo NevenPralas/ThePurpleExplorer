@@ -149,14 +149,12 @@ namespace BNG {
         }
 
         public void ShootLauncher() {
-            if (launchedObjects == null)
-            {
+            if(launchedObjects == null) {
                 launchedObjects = new List<GameObject>();
             }
 
             // Went over max. Destroy oldest launch object
-            if (launchedObjects.Count > MaxLaunchedObjects)
-            {
+            if(launchedObjects.Count > MaxLaunchedObjects) {
                 launchedObjects.Remove(launchedObjects[0]);
                 GameObject.Destroy(launchedObjects[0]);
             }
