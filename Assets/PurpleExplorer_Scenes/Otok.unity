@@ -713,9 +713,7 @@ RectTransform:
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &216830127
-=======
---- !u!1001 &93200029
->>>>>>> 3fff2934cb4be0f3051723a6c1e252820f5a8f95
+
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
