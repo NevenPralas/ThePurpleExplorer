@@ -8,10 +8,12 @@ public class IskljuciDugmeKonacno : MonoBehaviour
 
     public Material material;
     // Start is called before the first frame update
+    Canvas canvass;
     Renderer rendererr;
 
     private void Start()
     {
+        canvass = GetComponentInParent<Canvas>();
         rendererr = ploca.GetComponent<MeshRenderer>();
     }
     // Update is called once per frame
@@ -19,8 +21,7 @@ public class IskljuciDugmeKonacno : MonoBehaviour
     {
         if (!rendererr.materials[0].name.Contains("Australia"))
         {
-            GetComponent<MeshRenderer>().enabled = false;
-            GetComponent<BoxCollider>().enabled = false;
+            canvass.enabled = false;
         }
     }
 }

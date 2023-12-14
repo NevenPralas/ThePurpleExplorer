@@ -44,8 +44,7 @@ public class RotacijaNaDugme : MonoBehaviour
             for (int i = 0; i < buttons.Length; i++)
             {
 
-                buttons[i].GetComponent<MeshRenderer>().enabled = false;
-                buttons[i].GetComponent<BoxCollider>().enabled = false;
+                buttons[i].GetComponentInParent<Canvas>().enabled = false;
 
             }
 
@@ -60,8 +59,7 @@ public class RotacijaNaDugme : MonoBehaviour
             for (int i = 0; i < buttons.Length; i++)
             {
 
-                buttons[i].GetComponent<MeshRenderer>().enabled = false;
-                buttons[i].GetComponent<BoxCollider>().enabled = false;
+                buttons[i].GetComponentInParent<Canvas>().enabled = false;
 
             }
 
@@ -84,8 +82,7 @@ public class RotacijaNaDugme : MonoBehaviour
 
     private void ButtonDisabled()
     {
-        button.GetComponent<MeshRenderer>().enabled = false;
-        button.GetComponent<BoxCollider>().enabled = false;
+        button.GetComponentInParent<Canvas>().enabled = false;
         GlobalMemory.pamtiButton = button;
     }
 
@@ -93,8 +90,7 @@ public class RotacijaNaDugme : MonoBehaviour
     {
 
 
-        GlobalMemory.pamtiButton.GetComponent<MeshRenderer>().enabled = true;
-        GlobalMemory.pamtiButton.GetComponent<BoxCollider>().enabled = true;
+        GlobalMemory.pamtiButton.GetComponentInParent<Canvas>().enabled = true;
 
     }
 
@@ -104,8 +100,7 @@ public class RotacijaNaDugme : MonoBehaviour
 
         for (int i = 0; i < buttons.Length; i++)
         {
-            buttons[i].GetComponent<MeshRenderer>().enabled = true;
-            buttons[i].GetComponent<BoxCollider>().enabled = true;
+            buttons[i].GetComponentInParent<Canvas>().enabled = true;
         }
 
         ButtonEnabled();
@@ -130,8 +125,7 @@ public class RotacijaNaDugme : MonoBehaviour
 
         for (int i = 0; i < buttons.Length; i++)
         {
-            buttons[i].GetComponent<MeshRenderer>().enabled = true;
-            buttons[i].GetComponent<BoxCollider>().enabled = true;
+            buttons[i].GetComponentInParent<Canvas>().enabled = true;
         }
 
         ButtonDisabled();
