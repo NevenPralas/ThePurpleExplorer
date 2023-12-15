@@ -10,7 +10,12 @@ public class reset_tools : MonoBehaviour
     public Vector3 newbat = new Vector3(547.3948f, 48.77557f, 354.7365f);
     public Vector3 newkatana = new Vector3(547.355f, 48.794f, 354.5806f);
 
-
+    public GameObject ball1;
+    public GameObject ball2;
+    public GameObject ball3;
+    public GameObject bat;
+    public GameObject katana;
+    
     void Start()
     {
         SetPositionsForNamedObjects();
@@ -18,14 +23,6 @@ public class reset_tools : MonoBehaviour
 
     void SetPositionsForNamedObjects()
     {
-        
-        
-            GameObject ball1 = GameObject.Find("Ball_m");
-            GameObject ball2 = GameObject.Find("Ball (1)_m");
-            GameObject ball3 = GameObject.Find("Ball (2)_m");
-            GameObject bat = GameObject.Find("Bat 2H_m");
-            GameObject katana = GameObject.Find("Katana_m");
-
             if (ball1 != null && ball2 != null && ball3 !=null && bat!=null && katana!=null )
             {
                 
