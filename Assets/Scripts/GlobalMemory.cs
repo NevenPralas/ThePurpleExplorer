@@ -28,4 +28,5 @@ public class GlobalMemory : MonoBehaviour
 
     public static int prosloVrijeme = 0;
 
+    
 }
