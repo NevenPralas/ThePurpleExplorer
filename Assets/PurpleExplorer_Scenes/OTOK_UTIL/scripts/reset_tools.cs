@@ -7,60 +7,30 @@ using UnityEngine.UI;
 
 
 
-public class reset_tools : MonoBehaviour
+public class ResetTools : MonoBehaviour
 {
-    
-  
+    public GameObject[] objectsToReset;
 
-    public GameObject ball1;
-    public GameObject ball2;
-    public GameObject ball3;
-    public GameObject bat;
-    public GameObject katana;
-    
-   
-
-   public void SetPositionsForNamedObjects()
-   
+    public void SetPositionsForNamedObjects()
     {
-        
-            if (ball1 != null && ball2 != null && ball3 !=null && bat!=null && katana!=null )
+        if (objectsToReset != null)
+        {
+            for (int i = 0; i < objectsToReset.Length; i++)
             {
-               
-                ball1.transform.position = notepositions.newball1;
-                ball2.transform.position = notepositions.newball2;
-                ball3.transform.position = notepositions.newball3;
-                bat.transform.position = notepositions.newbat;
-                katana.transform.position = notepositions.newkatana;
+                GameObject obj = objectsToReset[i];
+                if (obj != null && i < NotePositions.objectPositions.Count)
+                {
+                    obj.transform.position = NotePositions.objectPositions[i];
+                    obj.transform.rotation = NotePositions.objectRotations[i];
 
-                ball1.transform.rotation= notepositions.newball1R;
-                ball2.transform.rotation= notepositions.newball2R;
-                ball3.transform.rotation= notepositions.newball3R;
-                bat.transform.rotation= notepositions.newbatR;
-                katana.transform.rotation= notepositions.newkatanaR;
-        
-                Rigidbody rb1 = ball1.GetComponent<Rigidbody>();
-                Rigidbody rb2 = ball2.GetComponent<Rigidbody>();
-                Rigidbody rb3 = ball3.GetComponent<Rigidbody>();
-                Rigidbody rb4 = bat.GetComponent<Rigidbody>();
-                Rigidbody rb5 = katana.GetComponent<Rigidbody>();
-
-                if(rb1 && rb2 && rb3 && rb4 && rb5){
-                rb1.velocity = Vector3.zero;
-                rb1.angularVelocity = Vector3.zero;
-                rb2.velocity = Vector3.zero;
-                rb2.angularVelocity = Vector3.zero;
-                rb3.velocity = Vector3.zero;
-                rb3.angularVelocity = Vector3.zero;
-                rb4.velocity = Vector3.zero;
-                rb4.angularVelocity = Vector3.zero;
-                rb5.velocity = Vector3.zero;
-                rb5.angularVelocity = Vector3.zero;
+                    Rigidbody rb = obj.GetComponent<Rigidbody>();
+                    if (rb != null)
+                    {
+                        rb.velocity = Vector3.zero;
+                        rb.angularVelocity = Vector3.zero;
+                    }
                 }
-                
             }
+        }
     }
-    
-    
-
 }
