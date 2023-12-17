@@ -7,6 +7,7 @@ TagManager:
   - SnapPoint
   - XR_RIG
   - Palma
+  - Enemy
   layers:
   - Default
   - TransparentFX
