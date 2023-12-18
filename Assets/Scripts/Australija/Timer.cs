@@ -18,6 +18,8 @@ public class Timer : MonoBehaviour
 
     void Start()
     {
+        countdownText.color = Color.white;
+        countdownText2.color = Color.white;
         GlobalMemory.prosloVrijeme = 0;
         startButton.onClick.AddListener(StartCountdown);
     }
@@ -59,6 +61,12 @@ public class Timer : MonoBehaviour
             if (GlobalMemory.pobjeda == 10)
             {
                 StopCountdown();
+                countdownText.color = Color.green;
+                countdownText.text = "Nice job";
+                countdownText2.color = Color.green;
+                countdownText2.text = "Nice job";
+                yield return new WaitForSeconds(3f);
+                countdownText2.text = "";
                 yield break; // Izlazak iz Coroutine
             }
 
@@ -99,7 +107,9 @@ public class Timer : MonoBehaviour
     {
         isCountingDown = false;
         countdownTime = 60f;
-        countdownText.text = "0.0";
-        countdownText2.text = "0.0";
+        countdownText.color = Color.red;
+        countdownText.text = "Mission Failed";
+        countdownText2.color = Color.red;
+        countdownText2.text = "Mission Failed";
     }
 }
