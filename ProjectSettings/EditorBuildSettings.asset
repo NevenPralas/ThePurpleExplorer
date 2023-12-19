@@ -30,14 +30,23 @@ EditorBuildSettings:
     path: Assets/PurpleExplorer_Scenes/Otok.unity
     guid: 8162cd70bbf1d2a4c9b1a90f79f7147f
   - enabled: 1
+    path: Assets/PurpleExplorer_Scenes/Antarktika.unity
+    guid: f0f52d3b9b0a4de41ac08452a273da63
+  - enabled: 1
     path: Assets/PurpleExplorer_Scenes/Memory_AUS.unity
     guid: 50d43b518227380428c713a9ae8e1d8b
+  - enabled: 1
+    path: Assets/PurpleExplorer_Scenes/Quiz.unity
+    guid: d0c86099591e70153b61e42cd42795c2
   - enabled: 1
     path: Assets/PurpleExplorer_Scenes/Afrika.unity
     guid: 04400c258e3464446b47e2fc6ab1ef0b
   - enabled: 1
-    path: Assets/PurpleExplorer_Scenes/Quiz.unity
-    guid: d0c86099591e70153b61e42cd42795c2
+    path: Assets/PurpleExplorer_Scenes/Afrika - Bacanje - Pokusaj.unity
+    guid: 2ace4bf0cae7e4b4bb0521fb9aba05e1
+  - enabled: 1
+    path: Assets/PurpleExplorer_Scenes/Tutorial.unity
+    guid: 57ad4f4f2f65f7240a45a9df814de774
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfcf0aa12976e5047830ef9062b03f01,
       type: 2}
