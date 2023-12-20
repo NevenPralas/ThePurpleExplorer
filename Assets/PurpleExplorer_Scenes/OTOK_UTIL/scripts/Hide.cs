@@ -11,10 +11,7 @@ public class Hide : MonoBehaviour
         {
             objectToHide.SetActive(false);
         }
-        else
-        {
-            Debug.LogError("Object doesn't exist");
-        }
+        
     }
 
     void Awake(){
