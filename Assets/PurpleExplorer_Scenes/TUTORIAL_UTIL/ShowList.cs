@@ -14,10 +14,7 @@ public class ShowList : MonoBehaviour
             {
                 obj.SetActive(true);
             }
-            else
-            {
-                Debug.LogError("Object doesn't exist");
-            }
+
         }
     }
 
