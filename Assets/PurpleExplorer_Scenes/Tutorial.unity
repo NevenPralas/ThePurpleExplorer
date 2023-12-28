@@ -141,7 +141,7 @@ PrefabInstance:
         type: 3}
       propertyPath: ZiplineEnd
       value: 
-      objectReference: {fileID: 391164378}
+      objectReference: {fileID: 1316920611}
     - target: {fileID: 4875892505466408128, guid: 13049a06e1e88ab42b7949927a970b75,
         type: 3}
       propertyPath: ZiplineSpeed
@@ -151,7 +151,7 @@ PrefabInstance:
         type: 3}
       propertyPath: ZiplineStart
       value: 
-      objectReference: {fileID: 1080675092}
+      objectReference: {fileID: 894359331}
     - target: {fileID: 4875892505466408131, guid: 13049a06e1e88ab42b7949927a970b75,
         type: 3}
       propertyPath: m_RootOrder
@@ -5086,6 +5086,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1033677873}
+  - {fileID: 1316920611}
   m_Father: {fileID: 757881848}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &415786554
@@ -7973,6 +7974,37 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 839492650}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &894359330
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 894359331}
+  m_Layer: 0
+  m_Name: start
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &894359331
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 894359330}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1080675092}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &929211005
 GameObject:
   m_ObjectHideFlags: 0
@@ -9183,6 +9215,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 257284846}
+  - {fileID: 894359331}
   m_Father: {fileID: 757881848}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1114692512
@@ -10278,6 +10311,37 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1316920610
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1316920611}
+  m_Layer: 0
+  m_Name: end
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1316920611
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316920610}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.158, y: 0.77, z: -22.138}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 391164378}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1318850037
 GameObject:
   m_ObjectHideFlags: 0
@@ -10365,8 +10429,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 362.2, y: -72.4}
-  m_SizeDelta: {x: 587.9, y: 141.9}
+  m_AnchoredPosition: {x: 269, y: -72.4}
+  m_SizeDelta: {x: 454.5, y: 141.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1336008738
 MonoBehaviour:
@@ -10392,7 +10456,7 @@ MonoBehaviour:
     m_Font: {fileID: 12800000, guid: 0ebbcec4dd8e2f040b163f10df7e8382, type: 3}
     m_FontSize: 22
     m_FontStyle: 1
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 4
@@ -10401,7 +10465,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: To use doors, grab the handle and pull/push.
+  m_Text: To use doors, grab the handle and pull.
 --- !u!222 &1336008739
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11948,7 +12012,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: dc5b67c194953b24f9a5ae2954351631, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.23
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -13642,7 +13706,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1664023181}
   m_LocalRotation: {x: -0, y: -0.9753453, z: -0, w: 0.22068459}
-  m_LocalPosition: {x: 0, y: 0, z: -72.371}
+  m_LocalPosition: {x: 0, y: 0, z: -72.2858}
   m_LocalScale: {x: 0.0020257586, y: 0.0021380035, z: 1.0991584}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -13651,8 +13715,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: -154.502, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -51.617, y: -4.358}
-  m_SizeDelta: {x: 720.0143, y: 153.2513}
+  m_AnchoredPosition: {x: -51.795685, y: -4.358}
+  m_SizeDelta: {x: 524.5634, y: 153.2513}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1664023183
 MonoBehaviour:
@@ -17678,9 +17742,9 @@ MonoBehaviour:
   GrabPhysics: 4
   GrabMechanic: 1
   GrabSpeed: 15
-  RemoteGrabbable: 0
+  RemoteGrabbable: 1
   RemoteGrabMechanic: 0
-  RemoteGrabDistance: 2
+  RemoteGrabDistance: 3
   ThrowForceMultiplier: 2
   ThrowForceMultiplierAngular: 1.5
   BreakDistance: 0
