@@ -28,5 +28,14 @@ public class GlobalMemory : MonoBehaviour
 
     public static int prosloVrijeme = 0;
 
+    // Za protivnike u sobi Africa koja je zapravo Srednja Amerika koja je zapravo Sjeverna Amerika
+    public static Vector3 polozaj1;
+    public static Vector3 polozaj2;
+    public static Vector3 polozaj3;
+    public static Vector3 polozaj4;
+    public static Vector3 polozaj5;
+
+    public static bool gotovo = false;
+
     
 }

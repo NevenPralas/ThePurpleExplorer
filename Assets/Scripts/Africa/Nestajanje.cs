@@ -19,6 +19,16 @@ public class Nestajanje : MonoBehaviour
             }
 
         }
+        else if(Pogodak.pogodjeno2 != 2)
+        {
+           
+                for (int i = 0; i < predmeti.Length; i++)
+                {
+                    predmeti[i].GetComponent<MeshRenderer>().enabled = true;
+                    predmeti[i].GetComponent<BoxCollider>().enabled = true;
+                }
+            
+        }
     }
 
 }

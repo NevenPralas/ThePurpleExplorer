@@ -28046,6 +28046,7 @@ GameObject:
   - component: {fileID: 818210435}
   - component: {fileID: 818210434}
   - component: {fileID: 818210433}
+  - component: {fileID: 818210440}
   m_Layer: 5
   m_Name: N AMERICA TP
   m_TagString: Untagged
@@ -28067,6 +28068,7 @@ RectTransform:
   m_Children:
   - {fileID: 1744861934}
   - {fileID: 1260060244}
+  - {fileID: 842914666}
   m_Father: {fileID: 481448765}
   m_LocalEulerAnglesHint: {x: 0, y: 116.727, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -28200,6 +28202,21 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &818210440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 818210431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0070bfbad2620a4c8f521728d971cae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  image: {fileID: 1260060245}
+  button: {fileID: 1744861937}
+  text: {fileID: 1588585925}
 --- !u!1 &824566887
 GameObject:
   m_ObjectHideFlags: 0
@@ -28904,6 +28921,54 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 839580401}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &842914665
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 842914666}
+  - component: {fileID: 842914667}
+  m_Layer: 5
+  m_Name: funkcija
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &842914666
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 842914665}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 818210432}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &842914667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 842914665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75f1d4f93830355408e236066f16c47b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &843226623
 GameObject:
   m_ObjectHideFlags: 0
@@ -54478,7 +54543,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Afrika
+          m_StringArgument: Otok
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!222 &1555910903
@@ -61984,7 +62049,19 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Otok
+          m_StringArgument: Afrika - Bacanje - Pokusaj
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 842914667}
+        m_TargetAssemblyTypeName: VratiBacanjeKakJe, Assembly-CSharp
+        m_MethodName: Vrati
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!222 &1744861938
