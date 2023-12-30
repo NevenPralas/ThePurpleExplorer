@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PojavaEnemy : MonoBehaviour
 {
-    public static int i = 0; public static int j = 0;
+    int i = 0; int j = 0;
 
     // Update is called once per frame
     void Update()

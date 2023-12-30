@@ -6,9 +6,6 @@ TagManager:
   tags:
   - Enemy
   - Enemy2
-  - Loptica
-  - tools
-  - Brojac
   layers:
   - Default
   - TransparentFX

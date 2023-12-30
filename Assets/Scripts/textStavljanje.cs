@@ -17,11 +17,11 @@ public class textStavljanje : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (textKucica.text == "North America" || text == "North America")
+        if (textKucica.text == "Africa" || text == "Africa")
         {
             if (GlobalMemory.totemAfrika == 1)
             {
-                text = "North America";
+                text = "Africa";
 
                 textKucica.text = "Task completed";
 
@@ -31,7 +31,7 @@ public class textStavljanje : MonoBehaviour
             }
             if (GlobalMemory.totemAfrika == 0)
             {
-                textKucica.text = "North America";
+                textKucica.text = "Africa";
 
                 textKucica.color = Color.white;
 
