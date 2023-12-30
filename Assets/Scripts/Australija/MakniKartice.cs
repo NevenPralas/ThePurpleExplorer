@@ -12,7 +12,7 @@ public class MakniKartice : MonoBehaviour
         if(GlobalMemory.pobjeda == 10)
         {
             GetComponent<MeshRenderer>().enabled = false;
-            GetComponent<MeshCollider>().enabled = true;
+            GetComponent<MeshCollider>().enabled = false;
 
         }
     }

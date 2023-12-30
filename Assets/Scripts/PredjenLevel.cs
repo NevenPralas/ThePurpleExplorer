@@ -17,7 +17,7 @@ public class PredjenLevel : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (text.text == "GO TO AFRICA")
+        if (text.text == "GO TO NORTH AMERICA") // nisam htio mijenjati ovo America -> Afrika...
         {
             if (GlobalMemory.totemAfrika == 1 || GlobalMemory.gsAfrika == 1)
             {
@@ -63,6 +63,15 @@ public class PredjenLevel : MonoBehaviour
                 text.color = Color.green;
 
                 GlobalMemory.gsEuropa = 1;
+            }
+        }
+        if(text.text == "GO TO NORTH AMERICA")
+        {
+            if(BrojanjeLoptica.brojacLoptica == 0 || SmanjivanjeLoptica.poraz == 1)
+            {
+                text.text = "Task failed! Try again?";
+                text.color = Color.white;
+                button.image.color = Color.red;
             }
         }
 
