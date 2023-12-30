@@ -89,7 +89,7 @@ Material:
     - _OcclusionStrengthIndirectDiffuse: 1
     - _OcclusionStrengthIndirectSpecular: 1
     - _Parallax: 0.02
-    - _SeeThru: 0.811
+    - _SeeThru: 0
     - _SpecularMode: 1
     - _SrcBlend: 5
     - _UVSec: 0
