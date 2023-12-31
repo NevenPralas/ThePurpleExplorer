@@ -297,6 +297,7 @@ GameObject:
   - component: {fileID: 6515299}
   - component: {fileID: 6515303}
   - component: {fileID: 6515304}
+  - component: {fileID: 6515305}
   m_Layer: 0
   m_Name: Lopta1 (6)
   m_TagString: Loptica
@@ -498,6 +499,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33d3f0e7511cc3c4694e3094a00740ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6515305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6515297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da2a4ad8126567148ba8eac6d9e45bc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resetDelay: 3
 --- !u!1001 &11218100
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4545,6 +4559,7 @@ GameObject:
   - component: {fileID: 126310656}
   - component: {fileID: 126310660}
   - component: {fileID: 126310661}
+  - component: {fileID: 126310662}
   m_Layer: 0
   m_Name: Lopta1 (1)
   m_TagString: Loptica
@@ -4746,6 +4761,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33d3f0e7511cc3c4694e3094a00740ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &126310662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 126310654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da2a4ad8126567148ba8eac6d9e45bc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resetDelay: 3
 --- !u!1 &126493078
 GameObject:
   m_ObjectHideFlags: 0
@@ -5366,6 +5394,7 @@ GameObject:
   - component: {fileID: 143469251}
   - component: {fileID: 143469250}
   - component: {fileID: 143469249}
+  - component: {fileID: 143469255}
   m_Layer: 0
   m_Name: Lopta1 (7)
   m_TagString: Loptica
@@ -5567,6 +5596,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 143469247}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &143469255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 143469247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da2a4ad8126567148ba8eac6d9e45bc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resetDelay: 3
 --- !u!1001 &144090625
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6702,6 +6744,7 @@ GameObject:
   - component: {fileID: 172404188}
   - component: {fileID: 172404187}
   - component: {fileID: 172404186}
+  - component: {fileID: 172404192}
   m_Layer: 0
   m_Name: Lopta1 (5)
   m_TagString: Loptica
@@ -6903,6 +6946,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 172404184}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &172404192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 172404184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da2a4ad8126567148ba8eac6d9e45bc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resetDelay: 3
 --- !u!1001 &173236643
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9788,6 +9844,7 @@ GameObject:
   - component: {fileID: 259705136}
   - component: {fileID: 259705140}
   - component: {fileID: 259705141}
+  - component: {fileID: 259705142}
   m_Layer: 0
   m_Name: Lopta1 (5)
   m_TagString: Loptica
@@ -9989,6 +10046,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33d3f0e7511cc3c4694e3094a00740ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &259705142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 259705134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da2a4ad8126567148ba8eac6d9e45bc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resetDelay: 3
 --- !u!1001 &260170702
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11465,6 +11535,7 @@ GameObject:
   - component: {fileID: 320417727}
   - component: {fileID: 320417726}
   - component: {fileID: 320417725}
+  - component: {fileID: 320417731}
   m_Layer: 0
   m_Name: Lopta1 (1)
   m_TagString: Loptica
@@ -11666,6 +11737,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 320417723}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &320417731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 320417723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da2a4ad8126567148ba8eac6d9e45bc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resetDelay: 3
 --- !u!1001 &322534641
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13002,6 +13086,7 @@ GameObject:
   m_Component:
   - component: {fileID: 370210520}
   - component: {fileID: 370210521}
+  - component: {fileID: 370210522}
   m_Layer: 5
   m_Name: funkcija
   m_TagString: Untagged
@@ -13043,6 +13128,18 @@ MonoBehaviour:
   loadSceneMode: 0
   UseSceenFader: 1
   ScreenFadeTime: 0.5
+--- !u!114 &370210522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 370210519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4725050392c6fd44b7432e6cf88ecbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &371490814
 GameObject:
   m_ObjectHideFlags: 0
@@ -17659,6 +17756,7 @@ GameObject:
   - component: {fileID: 541992413}
   - component: {fileID: 541992417}
   - component: {fileID: 541992418}
+  - component: {fileID: 541992419}
   m_Layer: 0
   m_Name: Lopta1 (4)
   m_TagString: Loptica
@@ -17860,6 +17958,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33d3f0e7511cc3c4694e3094a00740ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &541992419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 541992411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da2a4ad8126567148ba8eac6d9e45bc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resetDelay: 3
 --- !u!1001 &543718044
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21302,6 +21413,7 @@ GameObject:
   - component: {fileID: 642454886}
   - component: {fileID: 642454885}
   - component: {fileID: 642454884}
+  - component: {fileID: 642454890}
   m_Layer: 0
   m_Name: Lopta1 (6)
   m_TagString: Loptica
@@ -21503,6 +21615,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 642454882}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &642454890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 642454882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da2a4ad8126567148ba8eac6d9e45bc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resetDelay: 3
 --- !u!1001 &642698211
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27863,6 +27988,7 @@ GameObject:
   - component: {fileID: 855035377}
   - component: {fileID: 855035376}
   - component: {fileID: 855035375}
+  - component: {fileID: 855035381}
   m_Layer: 0
   m_Name: Lopta1 (9)
   m_TagString: Loptica
@@ -28064,6 +28190,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 855035373}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &855035381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 855035373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da2a4ad8126567148ba8eac6d9e45bc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resetDelay: 3
 --- !u!1 &856842660
 GameObject:
   m_ObjectHideFlags: 0
@@ -35243,6 +35382,7 @@ GameObject:
   - component: {fileID: 1055021182}
   - component: {fileID: 1055021181}
   - component: {fileID: 1055021180}
+  - component: {fileID: 1055021186}
   m_Layer: 0
   m_Name: Lopta1 (2)
   m_TagString: Loptica
@@ -35444,6 +35584,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1055021178}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1055021186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1055021178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da2a4ad8126567148ba8eac6d9e45bc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resetDelay: 3
 --- !u!1001 &1055434819
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35573,7 +35726,7 @@ GameObject:
   - component: {fileID: 1059103631}
   m_Layer: 0
   m_Name: Brojac
-  m_TagString: Untagged
+  m_TagString: Brojac
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38953,6 +39106,7 @@ GameObject:
   - component: {fileID: 1170641697}
   - component: {fileID: 1170641701}
   - component: {fileID: 1170641702}
+  - component: {fileID: 1170641703}
   m_Layer: 0
   m_Name: Lopta1 (3)
   m_TagString: Loptica
@@ -39154,6 +39308,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33d3f0e7511cc3c4694e3094a00740ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1170641703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1170641695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da2a4ad8126567148ba8eac6d9e45bc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resetDelay: 3
 --- !u!1 &1171686983
 GameObject:
   m_ObjectHideFlags: 0
@@ -42152,6 +42319,7 @@ GameObject:
   - component: {fileID: 1269602030}
   - component: {fileID: 1269602034}
   - component: {fileID: 1269602035}
+  - component: {fileID: 1269602036}
   m_Layer: 0
   m_Name: Lopta1 (8)
   m_TagString: Loptica
@@ -42353,6 +42521,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33d3f0e7511cc3c4694e3094a00740ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1269602036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1269602028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da2a4ad8126567148ba8eac6d9e45bc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resetDelay: 3
 --- !u!1001 &1270733489
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44705,6 +44886,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1426664293}
+        m_TargetAssemblyTypeName: VratiProtivnike, Assembly-CSharp
+        m_MethodName: vratiProtivnike
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!222 &1323678798
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -45843,6 +46036,7 @@ GameObject:
   - component: {fileID: 1358443663}
   - component: {fileID: 1358443662}
   - component: {fileID: 1358443661}
+  - component: {fileID: 1358443667}
   m_Layer: 0
   m_Name: Lopta1 (4)
   m_TagString: Loptica
@@ -46044,6 +46238,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1358443659}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1358443667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1358443659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da2a4ad8126567148ba8eac6d9e45bc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resetDelay: 3
 --- !u!1001 &1362388542
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46244,6 +46451,7 @@ GameObject:
   - component: {fileID: 1369837625}
   - component: {fileID: 1369837624}
   - component: {fileID: 1369837623}
+  - component: {fileID: 1369837629}
   m_Layer: 0
   m_Name: Lopta1 (9)
   m_TagString: Loptica
@@ -46445,6 +46653,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1369837621}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1369837629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1369837621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da2a4ad8126567148ba8eac6d9e45bc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resetDelay: 3
 --- !u!1001 &1371905399
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48356,6 +48577,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1426664291}
   - component: {fileID: 1426664292}
+  - component: {fileID: 1426664293}
   m_Layer: 5
   m_Name: funkcija
   m_TagString: Untagged
@@ -48403,6 +48625,24 @@ MonoBehaviour:
   - {fileID: 556859075}
   - {fileID: 144090627}
   k: 0
+--- !u!114 &1426664293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1426664290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68144de0a189688448f4abc1781f18c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  protivnici:
+  - {fileID: 658935690}
+  - {fileID: 2078080606}
+  - {fileID: 181298592}
+  - {fileID: 1801345100}
+  - {fileID: 1305895803}
 --- !u!1001 &1427673952
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49536,6 +49776,7 @@ GameObject:
   - component: {fileID: 1454818602}
   - component: {fileID: 1454818606}
   - component: {fileID: 1454818607}
+  - component: {fileID: 1454818608}
   m_Layer: 0
   m_Name: Lopta1
   m_TagString: Loptica
@@ -49737,6 +49978,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33d3f0e7511cc3c4694e3094a00740ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1454818608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1454818600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da2a4ad8126567148ba8eac6d9e45bc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resetDelay: 3
 --- !u!1 &1460613739
 GameObject:
   m_ObjectHideFlags: 0
@@ -50655,6 +50909,7 @@ GameObject:
   - component: {fileID: 1485744901}
   - component: {fileID: 1485744900}
   - component: {fileID: 1485744899}
+  - component: {fileID: 1485744905}
   m_Layer: 0
   m_Name: Lopta1 (8)
   m_TagString: Loptica
@@ -50856,6 +51111,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1485744897}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1485744905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1485744897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da2a4ad8126567148ba8eac6d9e45bc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resetDelay: 3
 --- !u!1001 &1487284881
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -54639,8 +54907,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3661661765981345183, guid: c6fef5149fb43c445ba8264d0e83b62a,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3661661765981345183, guid: c6fef5149fb43c445ba8264d0e83b62a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3661661765981345183, guid: c6fef5149fb43c445ba8264d0e83b62a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1574047860}
+    - target: {fileID: 3661661765981345183, guid: c6fef5149fb43c445ba8264d0e83b62a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3661661765981345183, guid: c6fef5149fb43c445ba8264d0e83b62a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: cudniPovratak
+      objectReference: {fileID: 0}
+    - target: {fileID: 3661661765981345183, guid: c6fef5149fb43c445ba8264d0e83b62a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: CudniPovratak, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3661661765981345183, guid: c6fef5149fb43c445ba8264d0e83b62a,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: Otok
+      objectReference: {fileID: 0}
+    - target: {fileID: 3661661765981345183, guid: c6fef5149fb43c445ba8264d0e83b62a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 7569833324945885332, guid: c6fef5149fb43c445ba8264d0e83b62a,
         type: 3}
@@ -54665,6 +54968,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1574047859}
+    - targetCorrespondingSourceObject: {fileID: 3271137717129328637, guid: c6fef5149fb43c445ba8264d0e83b62a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1574047860}
   m_SourcePrefab: {fileID: 100100000, guid: c6fef5149fb43c445ba8264d0e83b62a, type: 3}
 --- !u!4 &1574047855 stripped
 Transform:
@@ -54710,6 +55017,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textKucica: {fileID: 1574047856}
   text: 
+--- !u!114 &1574047860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1574047857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4725050392c6fd44b7432e6cf88ecbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1574288035
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -55242,6 +55561,7 @@ GameObject:
   - component: {fileID: 1584253350}
   - component: {fileID: 1584253354}
   - component: {fileID: 1584253355}
+  - component: {fileID: 1584253356}
   m_Layer: 0
   m_Name: Lopta1 (2)
   m_TagString: Loptica
@@ -55443,6 +55763,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33d3f0e7511cc3c4694e3094a00740ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1584253356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1584253348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da2a4ad8126567148ba8eac6d9e45bc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resetDelay: 3
 --- !u!1001 &1584781179
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -56316,6 +56649,7 @@ GameObject:
   - component: {fileID: 1599821263}
   - component: {fileID: 1599821262}
   - component: {fileID: 1599821261}
+  - component: {fileID: 1599821267}
   m_Layer: 0
   m_Name: Lopta1 (3)
   m_TagString: Loptica
@@ -56517,6 +56851,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1599821259}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1599821267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1599821259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da2a4ad8126567148ba8eac6d9e45bc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resetDelay: 3
 --- !u!1001 &1602362947
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -62122,6 +62469,7 @@ GameObject:
   - component: {fileID: 1804717972}
   - component: {fileID: 1804717976}
   - component: {fileID: 1804717977}
+  - component: {fileID: 1804717978}
   m_Layer: 0
   m_Name: Lopta1 (7)
   m_TagString: Loptica
@@ -62323,6 +62671,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33d3f0e7511cc3c4694e3094a00740ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1804717978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1804717970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da2a4ad8126567148ba8eac6d9e45bc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resetDelay: 3
 --- !u!1001 &1808446054
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -64750,6 +65111,7 @@ GameObject:
   - component: {fileID: 1877202239}
   - component: {fileID: 1877202238}
   - component: {fileID: 1877202237}
+  - component: {fileID: 1877202241}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -64840,6 +65202,20 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1877202241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1877202236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a3f807a5c7eb1e44a9d32d3a10b4c55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tekstic: {fileID: 997035735}
+  button: {fileID: 1323678794}
 --- !u!1001 &1878225941
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -66335,6 +66711,7 @@ GameObject:
   - component: {fileID: 1927261809}
   - component: {fileID: 1927261808}
   - component: {fileID: 1927261807}
+  - component: {fileID: 1927261813}
   m_Layer: 0
   m_Name: Lopta1
   m_TagString: Loptica
@@ -66536,6 +66913,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1927261805}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1927261813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1927261805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da2a4ad8126567148ba8eac6d9e45bc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resetDelay: 3
 --- !u!1 &1930460936
 GameObject:
   m_ObjectHideFlags: 0
@@ -69425,6 +69815,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Otok
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 370210522}
+        m_TargetAssemblyTypeName: CudniPovratak, Assembly-CSharp
+        m_MethodName: cudniPovratak
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!222 &2052724768

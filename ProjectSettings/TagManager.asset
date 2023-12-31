@@ -10,6 +10,7 @@ TagManager:
   - Palma
   - SnapPoint
   - Loptica
+  - Brojac
   layers:
   - Default
   - TransparentFX
