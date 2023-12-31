@@ -17,11 +17,11 @@ public class textStavljanje : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (textKucica.text == "Africa" || text == "Africa")
+        if (textKucica.text == "North America" || text == "North America")
         {
             if (GlobalMemory.totemAfrika == 1)
             {
-                text = "Africa";
+                text = "North America";
 
                 textKucica.text = "Task completed";
 
@@ -31,7 +31,7 @@ public class textStavljanje : MonoBehaviour
             }
             if (GlobalMemory.totemAfrika == 0)
             {
-                textKucica.text = "Africa";
+                textKucica.text = "North America";
 
                 textKucica.color = Color.white;
 
@@ -39,7 +39,7 @@ public class textStavljanje : MonoBehaviour
             }
         }
 
-        if(textKucica.text == "Australia" || text == "Australia")
+        if (textKucica.text == "Australia" || text == "Australia")
         {
             if (GlobalMemory.totemAustralija == 1)
             {
