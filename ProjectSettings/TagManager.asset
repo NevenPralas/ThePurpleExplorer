@@ -4,12 +4,13 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - SnapPoint
-
-  - Crystal
-
+  - Enemy
+  - Enemy2
   - tools
-
+  - Palma
+  - SnapPoint
+  - Loptica
+  - Brojac
   layers:
   - Default
   - TransparentFX
@@ -22,7 +23,7 @@ TagManager:
   - Restricted
   - Player
   - Grabbable
-  - Ground
+  - 
   - 
   - 
   - 
