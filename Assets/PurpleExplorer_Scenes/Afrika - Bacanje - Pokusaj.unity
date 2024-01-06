@@ -300,7 +300,7 @@ GameObject:
   - component: {fileID: 6515305}
   - component: {fileID: 6515306}
   m_Layer: 0
-  m_Name: Lopta1 (6)
+  m_Name: Lopta1
   m_TagString: Loptica
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4597,7 +4597,7 @@ GameObject:
   - component: {fileID: 126310662}
   - component: {fileID: 126310663}
   m_Layer: 0
-  m_Name: Lopta1 (1)
+  m_Name: Lopta6
   m_TagString: Loptica
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5452,7 +5452,7 @@ GameObject:
   - component: {fileID: 143469255}
   - component: {fileID: 143469256}
   m_Layer: 0
-  m_Name: Lopta1 (7)
+  m_Name: Lopta18
   m_TagString: Loptica
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6822,7 +6822,7 @@ GameObject:
   - component: {fileID: 172404192}
   - component: {fileID: 172404193}
   m_Layer: 0
-  m_Name: Lopta1 (5)
+  m_Name: Lopta12
   m_TagString: Loptica
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9973,7 +9973,7 @@ GameObject:
   - component: {fileID: 259705142}
   - component: {fileID: 259705143}
   m_Layer: 0
-  m_Name: Lopta1 (5)
+  m_Name: Lopta2
   m_TagString: Loptica
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11704,7 +11704,7 @@ GameObject:
   - component: {fileID: 320417731}
   - component: {fileID: 320417732}
   m_Layer: 0
-  m_Name: Lopta1 (1)
+  m_Name: Lopta16
   m_TagString: Loptica
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17945,7 +17945,7 @@ GameObject:
   - component: {fileID: 541992419}
   - component: {fileID: 541992420}
   m_Layer: 0
-  m_Name: Lopta1 (4)
+  m_Name: Lopta3
   m_TagString: Loptica
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21622,7 +21622,7 @@ GameObject:
   - component: {fileID: 642454890}
   - component: {fileID: 642454891}
   m_Layer: 0
-  m_Name: Lopta1 (6)
+  m_Name: Lopta11
   m_TagString: Loptica
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28217,7 +28217,7 @@ GameObject:
   - component: {fileID: 855035381}
   - component: {fileID: 855035382}
   m_Layer: 0
-  m_Name: Lopta1 (9)
+  m_Name: Lopta10
   m_TagString: Loptica
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33330,7 +33330,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 305.25, y: 204}
+  m_AnchoredPosition: {x: 269.25, y: 158.5}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &997035735
@@ -35631,7 +35631,7 @@ GameObject:
   - component: {fileID: 1055021186}
   - component: {fileID: 1055021187}
   m_Layer: 0
-  m_Name: Lopta1 (2)
+  m_Name: Lopta15
   m_TagString: Loptica
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39375,7 +39375,7 @@ GameObject:
   - component: {fileID: 1170641703}
   - component: {fileID: 1170641704}
   m_Layer: 0
-  m_Name: Lopta1 (3)
+  m_Name: Lopta4
   m_TagString: Loptica
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42608,7 +42608,7 @@ GameObject:
   - component: {fileID: 1269602036}
   - component: {fileID: 1269602037}
   m_Layer: 0
-  m_Name: Lopta1 (8)
+  m_Name: Lopta9
   m_TagString: Loptica
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46548,7 +46548,7 @@ GameObject:
   - component: {fileID: 1358443667}
   - component: {fileID: 1358443668}
   m_Layer: 0
-  m_Name: Lopta1 (4)
+  m_Name: Lopta13
   m_TagString: Loptica
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46983,7 +46983,7 @@ GameObject:
   - component: {fileID: 1369837629}
   - component: {fileID: 1369837630}
   m_Layer: 0
-  m_Name: Lopta1 (9)
+  m_Name: Lopta20
   m_TagString: Loptica
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -50328,7 +50328,7 @@ GameObject:
   - component: {fileID: 1454818608}
   - component: {fileID: 1454818609}
   m_Layer: 0
-  m_Name: Lopta1
+  m_Name: Lopta7
   m_TagString: Loptica
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -51481,7 +51481,7 @@ GameObject:
   - component: {fileID: 1485744905}
   - component: {fileID: 1485744906}
   m_Layer: 0
-  m_Name: Lopta1 (8)
+  m_Name: Lopta19
   m_TagString: Loptica
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -56168,7 +56168,7 @@ GameObject:
   - component: {fileID: 1584253356}
   - component: {fileID: 1584253357}
   m_Layer: 0
-  m_Name: Lopta1 (2)
+  m_Name: Lopta5
   m_TagString: Loptica
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -57276,7 +57276,7 @@ GameObject:
   - component: {fileID: 1599821267}
   - component: {fileID: 1599821268}
   m_Layer: 0
-  m_Name: Lopta1 (3)
+  m_Name: Lopta14
   m_TagString: Loptica
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -63116,7 +63116,7 @@ GameObject:
   - component: {fileID: 1804717978}
   - component: {fileID: 1804717979}
   m_Layer: 0
-  m_Name: Lopta1 (7)
+  m_Name: Lopta8
   m_TagString: Loptica
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -67497,7 +67497,7 @@ GameObject:
   - component: {fileID: 1927261813}
   - component: {fileID: 1927261814}
   m_Layer: 0
-  m_Name: Lopta1
+  m_Name: Lopta17
   m_TagString: Loptica
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
