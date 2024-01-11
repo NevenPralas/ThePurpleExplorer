@@ -5,7 +5,6 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-
 public class QuizMaster : MonoBehaviour
 {
 
@@ -50,7 +49,11 @@ public class QuizMaster : MonoBehaviour
     [SerializeField]
     private RawImage background;
 
- 
+[SerializeField]
+    public GameObject rules;
+[SerializeField]
+    public GameObject totem;
+    public GameObject vitrina;
     private Texture image;
 
     public QuestionList q = new QuestionList();
@@ -67,11 +70,11 @@ public class QuizMaster : MonoBehaviour
     private int correct;   
 
   
-
     // Start is called before the first frame update
     void Start()
     {
        // q_txt = GameObject.GetComponent<TMP_Text>();
+
         loadQuestion(questionId);
     }
 
@@ -80,7 +83,15 @@ public class QuizMaster : MonoBehaviour
     {
         
         selected = getAnswer();
-        if(selected != 0){
+        if(rules.activeInHierarchy == true)
+        {
+            if(selected != 0){
+                rules.SetActive(false);
+                selected = 0;
+            }
+        }
+        else{
+            if(selected != 0){
 
             //confirm answer?
        
@@ -105,7 +116,8 @@ public class QuizMaster : MonoBehaviour
             else {
                 finishGame();
             }
-        }
+        }}
+        
     }
 
   
@@ -123,6 +135,9 @@ public class QuizMaster : MonoBehaviour
 
     void finishGame(){
 
+        (totem.GetComponent("Grabbable") as MonoBehaviour).enabled = true;
+        vitrina.SetActive(false);
+        this.enabled = false;
     }
 
     void loadQuestion(int questionId){
