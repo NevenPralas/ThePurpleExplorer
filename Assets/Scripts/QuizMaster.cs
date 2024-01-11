@@ -62,6 +62,7 @@ public class QuizMaster : MonoBehaviour
     public int total = 0;
     public int endgame = 5;
     private int questionId = 0;
+     [SerializeField]
     private int selected = 0;
     private int correct;   
 
