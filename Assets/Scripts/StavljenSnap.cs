@@ -39,12 +39,21 @@ public class StavljenSnap : MonoBehaviour
             {
                 GlobalMemory.totemEuropa = 0;
             }
+            if (transform.GetChild(0).name == "totemAnt" || transform.GetChild(1).name == "totemAnt")
+            {
+                GlobalMemory.totemAnt = 1;
+            }
+            else
+            {
+                GlobalMemory.totemAnt = 0;
+            }
         }
         else
         {
             GlobalMemory.totemAfrika = 0;
             GlobalMemory.totemAustralija = 0;
             GlobalMemory.totemEuropa = 0;
+            GlobalMemory.totemAnt = 0;
         }
     }
 }

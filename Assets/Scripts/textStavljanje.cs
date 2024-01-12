@@ -82,6 +82,28 @@ public class textStavljanje : MonoBehaviour
                 textKucica.fontSize = 40;
             }
         }
+
+        if (textKucica.text == "Antarctica" || text == "Antarctica")
+        {
+            if (GlobalMemory.totemAnt== 1)
+            {
+                text = "Antarctica";
+
+                textKucica.text = "Task completed";
+
+                textKucica.color = Color.green;
+
+                textKucica.fontSize = 40;
+            }
+            if (GlobalMemory.totemAnt == 0)
+            {
+                textKucica.text = "Antarctica";
+
+                textKucica.color = Color.white;
+
+                textKucica.fontSize = 40;
+            }
+        }
     }
 
 }

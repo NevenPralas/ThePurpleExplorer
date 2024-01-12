@@ -129,6 +129,18 @@ namespace BNG {
         public static event OnAfterMoveAction OnAfterMove;
         #endregion
 
+        private void OnTriggerEnter(Collider other)
+        {
+            if(other.gameObject.CompareTag("Trigger1"))
+            {
+                MovementSpeed = 20.0f;
+            }
+            if (other.gameObject.CompareTag("Trigger2"))
+            {
+                MovementSpeed = 5.0f;
+            }
+        }
+
         public virtual void Update() {
             CheckControllerReferences();
             UpdateInputs();
@@ -606,5 +618,6 @@ namespace BNG {
         CharacterController,
         Rigidbody
     }
+
 }
 

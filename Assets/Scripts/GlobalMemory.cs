@@ -20,10 +20,12 @@ public class GlobalMemory : MonoBehaviour
     public static int totemAfrika = 0;
     public static int totemAustralija = 0;
     public static int totemEuropa = 0;
+    public static int totemAnt = 0;
 
     public static int gsAfrika = 0;
     public static int gsAustralija = 0;
     public static int gsEuropa = 0;
+    public static int gsAnt = 0;
 
 
     public static int prosloVrijeme = 0;

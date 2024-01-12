@@ -24,6 +24,7 @@ public class ProgressCheck : MonoBehaviour
         if(GlobalMemory.totemAustralija == 1) progress++;
         if(GlobalMemory.totemAfrika == 1) progress++;
         if(GlobalMemory.totemEuropa == 1) progress++;
+        if (GlobalMemory.totemAnt == 1) progress++;
         progresstxt.text = "Progress: " + progress + "/7";
     }
 }

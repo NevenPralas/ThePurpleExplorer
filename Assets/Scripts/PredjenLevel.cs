@@ -30,6 +30,19 @@ public class PredjenLevel : MonoBehaviour
                 GlobalMemory.gsAfrika = 1;
             }
         }
+        if (text.text == "GO TO ANTARCTICA") // nisam htio mijenjati ovo America -> Afrika...
+        {
+            if (GlobalMemory.totemAnt == 1 || GlobalMemory.gsAnt == 1)
+            {
+                image.color = Color.green;
+                button.enabled = false;
+                button.image.color = Color.gray;
+                text.text = "Task completed";
+                text.color = Color.green;
+
+                GlobalMemory.gsAnt = 1;
+            }
+        }
         if (text.text == "GO TO AUSTRALIA")
         {
             if (GlobalMemory.totemAustralija == 1 || GlobalMemory.gsAustralija == 1)
