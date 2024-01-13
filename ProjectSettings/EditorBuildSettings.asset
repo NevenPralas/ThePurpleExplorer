@@ -47,6 +47,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/PurpleExplorer_Scenes/Tutorial.unity
     guid: 57ad4f4f2f65f7240a45a9df814de774
+  - enabled: 1
+    path: Assets/PurpleExplorer_Scenes/outpost with snow.unity
+    guid: e8cf1d29775c7e24f9dd35148a6437c0
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfcf0aa12976e5047830ef9062b03f01,
       type: 2}
