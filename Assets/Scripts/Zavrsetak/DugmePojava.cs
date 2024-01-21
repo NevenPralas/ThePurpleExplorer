@@ -12,7 +12,7 @@ public class DugmePojava : MonoBehaviour
         if(GlobalMemory.gsEuropa == 1 && GlobalMemory.gsAfrika == 1 &&
             GlobalMemory.gsAnt == 1 && GlobalMemory.gsAustralija == 1)
         {
-            this.enabled = true;
+            GetComponent<BoxCollider>().enabled = true;
         }
     }
 }
