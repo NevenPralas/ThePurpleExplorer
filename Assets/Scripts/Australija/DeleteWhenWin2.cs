@@ -14,9 +14,13 @@ public class DeleteWhenWin2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(GlobalMemory.pobjeda == 10)
+        if(GlobalMemory.pobjeda == 10 && GlobalMemory.ponovniUlazak == false)
         {
             canvas.enabled = false;
+        }
+        else
+        {
+            canvas.enabled = true;
         }
     }
 }

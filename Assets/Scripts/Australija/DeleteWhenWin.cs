@@ -16,10 +16,15 @@ public class DeleteWhenWin : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(GlobalMemory.pobjeda == 10)
+        if(GlobalMemory.pobjeda == 10 && GlobalMemory.ponovniUlazak==false)
         {
             rendererr.enabled = false;
             BoxCollider.enabled = false;
+        }
+        else
+        {
+            rendererr.enabled = true;
+            BoxCollider.enabled = true;
         }
     }
 }

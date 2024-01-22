@@ -40,4 +40,8 @@ public class GlobalMemory : MonoBehaviour
     public static bool gotovo = false;
 
 
+
+    public static bool ponovniUlazak = false;
+
+
 }
