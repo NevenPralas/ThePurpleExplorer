@@ -4,10 +4,13 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class SmanjivanjeLoptica : MonoBehaviour
 {
     public TextMeshProUGUI tekstic;
+
+    public TextMeshProUGUI tekst;
 
     public static int poraz = 0;
 
@@ -20,31 +23,32 @@ public class SmanjivanjeLoptica : MonoBehaviour
         if(BrojanjeLoptica.brojacLoptica == 20) {
             button.SetActive(true); }
         else if (BrojanjeLoptica.brojacLoptica == 19) {
-            button.SetActive(false); tekstic.text = "19/20"; }
-        else if (BrojanjeLoptica.brojacLoptica == 18) { button.SetActive(false); tekstic.text = "18/20"; }
-        else if (BrojanjeLoptica.brojacLoptica == 17) { button.SetActive(false); tekstic.text = "17/20"; }
-        else if (BrojanjeLoptica.brojacLoptica == 16) { button.SetActive(false); if (Pogodak.pogodjeno2 != 2) tekstic.text = "16/20"; }
-        else if (BrojanjeLoptica.brojacLoptica == 15) { button.SetActive(false); if (Pogodak.pogodjeno2 != 2) tekstic.text = "15/20"; }
-        else if (BrojanjeLoptica.brojacLoptica == 14) { button.SetActive(false); if (Pogodak.pogodjeno2 != 2) tekstic.text = "14/20"; }
-        else if (BrojanjeLoptica.brojacLoptica == 13) { button.SetActive(false); if (Pogodak.pogodjeno2 != 2) tekstic.text = "13/20"; }
-        else if (BrojanjeLoptica.brojacLoptica == 12) { button.SetActive(false); if (Pogodak.pogodjeno2 != 2) tekstic.text = "12/20"; }
-        else if (BrojanjeLoptica.brojacLoptica == 11) { button.SetActive(false); if (Pogodak.pogodjeno2 != 2) tekstic.text = "11/20"; }
-        else if (BrojanjeLoptica.brojacLoptica == 10) { button.SetActive(false); if (Pogodak.pogodjeno2 != 2) tekstic.text = "10/20"; }
-        else if (BrojanjeLoptica.brojacLoptica == 9) { button.SetActive(false); if (Pogodak.pogodjeno2 != 2) tekstic.text = "9/20"; }
-        else if (BrojanjeLoptica.brojacLoptica == 8) { button.SetActive(false); if (Pogodak.pogodjeno2 != 2) tekstic.text = "8/20"; }
-        else if (BrojanjeLoptica.brojacLoptica == 7) { button.SetActive(false); if (Pogodak.pogodjeno2 != 2) tekstic.text = "7/20"; }
-        else if (BrojanjeLoptica.brojacLoptica == 6) { button.SetActive(false); if (Pogodak.pogodjeno2 != 2) tekstic.text = "6/20"; }
-        else if (BrojanjeLoptica.brojacLoptica == 5) { button.SetActive(false); if (Pogodak.pogodjeno2 != 2) tekstic.text = "5/20"; }
-        else if (BrojanjeLoptica.brojacLoptica == 4) { button.SetActive(false); if (Pogodak.pogodjeno2 != 2) tekstic.text = "4/20"; }
-        else if (BrojanjeLoptica.brojacLoptica == 3) { button.SetActive(false); if (Pogodak.pogodjeno2 != 2) tekstic.text = "3/20"; }
-        else if (BrojanjeLoptica.brojacLoptica == 2) { button.SetActive(false); if (Pogodak.pogodjeno2 != 2) tekstic.text = "2/20"; }
-        else if (BrojanjeLoptica.brojacLoptica == 1) { button.SetActive(false); if (Pogodak.pogodjeno2 != 2) tekstic.text = "1/20"; }
+            button.SetActive(false); tekstic.text = "19/20"; tekst.text = "19/20"; }
+        else if (BrojanjeLoptica.brojacLoptica == 18) { button.SetActive(false); tekstic.text = "18/20"; tekst.text = "18/20"; }
+        else if (BrojanjeLoptica.brojacLoptica == 17) { button.SetActive(false); tekstic.text = "17/20"; tekst.text = "17/20"; }
+        else if (BrojanjeLoptica.brojacLoptica == 16) { button.SetActive(false); if (Pogodak.pogodjeno2 != 2) tekstic.text = "16/20"; tekst.text = "16/20"; }
+        else if (BrojanjeLoptica.brojacLoptica == 15) { button.SetActive(false); if (Pogodak.pogodjeno2 != 2) tekstic.text = "15/20"; tekst.text = "15/20"; }
+        else if (BrojanjeLoptica.brojacLoptica == 14) { button.SetActive(false); if (Pogodak.pogodjeno2 != 2) tekstic.text = "14/20"; tekst.text = "14/20"; }
+        else if (BrojanjeLoptica.brojacLoptica == 13) { button.SetActive(false); if (Pogodak.pogodjeno2 != 2) tekstic.text = "13/20"; tekst.text = "13/20"; }
+        else if (BrojanjeLoptica.brojacLoptica == 12) { button.SetActive(false); if (Pogodak.pogodjeno2 != 2) tekstic.text = "12/20"; tekst.text = "12/20"; }
+        else if (BrojanjeLoptica.brojacLoptica == 11) { button.SetActive(false); if (Pogodak.pogodjeno2 != 2) tekstic.text = "11/20"; tekst.text = "11/20"; }
+        else if (BrojanjeLoptica.brojacLoptica == 10) { button.SetActive(false); if (Pogodak.pogodjeno2 != 2) tekstic.text = "10/20"; tekst.text = "10/20"; }
+        else if (BrojanjeLoptica.brojacLoptica == 9) { button.SetActive(false); if (Pogodak.pogodjeno2 != 2) tekstic.text = "9/20"; tekst.text = "9/20"; }
+        else if (BrojanjeLoptica.brojacLoptica == 8) { button.SetActive(false); if (Pogodak.pogodjeno2 != 2) tekstic.text = "8/20"; tekst.text = "8/20"; }
+        else if (BrojanjeLoptica.brojacLoptica == 7) { button.SetActive(false); if (Pogodak.pogodjeno2 != 2) tekstic.text = "7/20"; tekst.text = "7/20"; }
+        else if (BrojanjeLoptica.brojacLoptica == 6) { button.SetActive(false); if (Pogodak.pogodjeno2 != 2) tekstic.text = "6/20"; tekst.text = "6/20"; }
+        else if (BrojanjeLoptica.brojacLoptica == 5) { button.SetActive(false); if (Pogodak.pogodjeno2 != 2) tekstic.text = "5/20"; tekst.text = "5/20"; }
+        else if (BrojanjeLoptica.brojacLoptica == 4) { button.SetActive(false); if (Pogodak.pogodjeno2 != 2) tekstic.text = "4/20"; tekst.text = "4/20"; }
+        else if (BrojanjeLoptica.brojacLoptica == 3) { button.SetActive(false); if (Pogodak.pogodjeno2 != 2) tekstic.text = "3/20"; tekst.text = "3/20"; }
+        else if (BrojanjeLoptica.brojacLoptica == 2) { button.SetActive(false); if (Pogodak.pogodjeno2 != 2) tekstic.text = "2/20"; tekst.text = "2/20"; }
+        else if (BrojanjeLoptica.brojacLoptica == 1) { button.SetActive(false); if (Pogodak.pogodjeno2 != 2) tekstic.text = "1/20"; tekst.text = "1/20"; }
         else if (BrojanjeLoptica.brojacLoptica == 0)
         {
             button.SetActive(false);
             if (Pogodak.pogodjeno2 != 2)
             {
                 tekstic.text = "0/20";
+                tekst.text = "0/20";
                 poraz = 1;
 
 

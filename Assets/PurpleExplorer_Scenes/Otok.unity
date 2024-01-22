@@ -16819,8 +16819,8 @@ MonoBehaviour:
 
 
     From here you can travel to each continent
-    in order to find all totems. After finding them all press tehe button bellow
-    to complete the game.'
+    in order to find all totems. After finding them all press the button bellow to
+    complete the game.'
 --- !u!222 &403050749
 CanvasRenderer:
   m_ObjectHideFlags: 0
