@@ -76,7 +76,7 @@ namespace RandomCharacter
 
                 character.transform.localScale = Vector3.one * Random.Range(characterSet.minSize, characterSet.maxSize);
                 character.transform.position = transform.position;
-
+ 
                 if (characterSet.selectedModule.overrideLayer)
                 {
                     character.layer = characterSet.selectedModule.layer;
@@ -114,6 +114,10 @@ namespace RandomCharacter
                         capsule.height = height;
                         break;
                 }
+                Animator animator = character.GetComponent<Animator>();
+                Debug.Log("Hi");
+                animator.runtimeAnimatorController = Resources.Load("Assets/PurpleExplorer_Scenes/QUIZ_UTIL/AudienceController") as RuntimeAnimatorController;
+               
             }
             else
             {

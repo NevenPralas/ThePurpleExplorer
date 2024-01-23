@@ -24,7 +24,7 @@ MonoBehaviour:
   parent: {fileID: 0}
   objectName: New Character
   useRandomName: 1
-  characterName: 'Fari Foupi '
+  characterName: 'Atopu Ouwuz '
   MaleNamesList: {fileID: 4900000, guid: 260c9b762b2018d41a15928b97f920b9, type: 3}
   FemaleNamesList: {fileID: 4900000, guid: 260c9b762b2018d41a15928b97f920b9, type: 3}
   maleImage: {fileID: 0}
@@ -48,7 +48,7 @@ MonoBehaviour:
     materialVariations:
     - {fileID: 2100000, guid: 4867322cf20d67b4793834ccb7537591, type: 2}
   genre: 2
-  defaultController: {fileID: 9100000, guid: d79def1c19568eb41aad19af9fcbf632, type: 2}
+  defaultController: {fileID: 9100000, guid: 1a36eb6b5449f2cde87bafe3d624bc09, type: 2}
   minSize: 0.9
   maxSize: 1.2
   materialVariations:
@@ -66,7 +66,7 @@ MonoBehaviour:
   bearVariations:
   - {fileID: 6494024619676889654, guid: 583d0e4bc3e99a34cbc7d4bbbc8c2a02, type: 3}
   - {fileID: 2853655769213519565, guid: 1d6b3bb446bfcd1468b7bf1617ccdf8c, type: 3}
-  useMask: 2
+  useMask: 1
   maskVariations:
   - {fileID: 100000, guid: 14348611c2564cd49b41660c45f342e7, type: 3}
   - {fileID: 100000, guid: e6b42a5cdccfe094ca0df2d343f113e4, type: 3}
@@ -77,7 +77,7 @@ MonoBehaviour:
   - {fileID: 5496628107375247397, guid: ce3e0045e315c11459cc71d1a2e7f12f, type: 3}
   iScriptPrefab: {fileID: 4135746888314586303, guid: 5473dab4209a78040bd2dc0550dccfe5,
     type: 3}
-  useHelmet: 2
+  useHelmet: 1
   helmetVariation:
   - objectVariations:
     - {fileID: 3188651387397556789, guid: f8bcafa53b1af8a49a37d57354ec6728, type: 3}
@@ -88,16 +88,16 @@ MonoBehaviour:
     - {fileID: 2100000, guid: 5e8fc9c7c99b13c42a3462f542806e21, type: 2}
     - {fileID: 2100000, guid: 2bf2f69a5c3f9eb45b1db58fb7f33a00, type: 2}
   useNameTargeting: 0
-  useArmourChest: 2
+  useArmourChest: 1
   maleArmourChest: []
   femaleArmourChest: []
   shirtNameTarget: 0
   pantsNameTarget: 0
   bootsNameTarget: 0
   glovesNameTarget: 0
-  useShirt: 2
-  usePants: 2
-  useBoots: 2
+  useShirt: 0
+  usePants: 0
+  useBoots: 0
   useGloves: 2
   maleShirts: []
   malePants: []
@@ -107,7 +107,7 @@ MonoBehaviour:
   femalePants: []
   femaleBoots: []
   femaleGloves: []
-  useShouldersProtection: 2
+  useShouldersProtection: 1
   shoulders:
   - LeftVariation: {fileID: 3497219084770165443, guid: 8276d794c47d7964b9b4ac94e265b0a1,
       type: 3}
@@ -117,19 +117,19 @@ MonoBehaviour:
       type: 3}
     RightVariation: {fileID: 6204548688728564465, guid: 4f1e37e643396e44ab1a0608630dcbe6,
       type: 3}
-  useWristsProtection: 2
+  useWristsProtection: 1
   wrists:
   - LeftVariation: {fileID: 4237553826662088035, guid: 6b0334df613ccba49986c1ce3eeae078,
       type: 3}
     RightVariation: {fileID: 2538837923021577471, guid: ee5a99cb755e8bd4a90fef618b73da8d,
       type: 3}
-  useThighsProtection: 2
+  useThighsProtection: 1
   thighs:
   - LeftVariation: {fileID: 6000510422480534280, guid: 87d9e0ee01d4c5d45bdef9172ee9c904,
       type: 3}
     RightVariation: {fileID: 8249381266825600312, guid: 15f3b7f4c26a620469e0414843979125,
       type: 3}
-  useKneeProtection: 2
+  useKneeProtection: 1
   knees:
   - LeftVariation: {fileID: 7045550613365387163, guid: 6c2aabb79d55567479a9664f25792285,
       type: 3}
@@ -155,7 +155,7 @@ MonoBehaviour:
     moduleUse: 1
     useContainerAnimator: 1
   moduleCount: 1
-  hasWeapon: 2
+  hasWeapon: 1
   weapons:
   - name: Collection 1
     controller: {fileID: 22100000, guid: 10ee51fb36c6d26459ec569da227cfae, type: 2}

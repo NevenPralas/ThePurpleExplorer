@@ -4,9 +4,12 @@ using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class QuizMaster : MonoBehaviour
 {
+    [SerializeField]
+    public GameObject audience;
 
     [System.Serializable]
     public class QuestionClass {
@@ -58,7 +61,7 @@ public class QuizMaster : MonoBehaviour
 
     public QuestionList q = new QuestionList();
     
-
+    private Animator[] animators;
 
     public string filename = "Assets/Questions.json";
     public int points = 0;
@@ -74,7 +77,7 @@ public class QuizMaster : MonoBehaviour
     void Start()
     {
        // q_txt = GameObject.GetComponent<TMP_Text>();
-
+        animators = audience.GetComponentsInChildren<Animator>();
         loadQuestion(questionId);
     }
 
@@ -93,29 +96,46 @@ public class QuizMaster : MonoBehaviour
         else{
             if(selected != 0){
 
-            //confirm answer?
-       
+            foreach (Animator animator in animators)
+            {
+                animator.SetBool("hasAnswered", true);
+            }
+
+            
             total++;
             if(selected == correct){
 
                 points++;
-           
+                foreach (Animator animator in animators)
+                {
+                    animator.SetBool("AnsweredCorrectly", true);
+                }
+
                 //print correct
 
             }
             else {
                 //print wrong
+                foreach (Animator animator in animators)
+                {
+                    animator.SetBool("AnsweredCorrectly", false);
+                }
             }
             pointstxt.text = "Points: " + points + " / " + total;
             selected = 0;
             //sleep (2)
 
-            if(total <= endgame){
-                loadQuestion(++questionId);
-            }
-            else {
+            if(points > 5){
                 finishGame();
             }
+            else if(total <= endgame)
+            {
+                loadQuestion(++questionId);
+            }
+            else{
+                SceneManager.LoadScene("Otok");
+            }
+
         }}
         
     }
@@ -139,6 +159,12 @@ public class QuizMaster : MonoBehaviour
         vitrina.SetActive(false);
         this.enabled = false;
     }
+
+    void failGame(){ 
+
+    }
+
+
 
     void loadQuestion(int questionId){
         
