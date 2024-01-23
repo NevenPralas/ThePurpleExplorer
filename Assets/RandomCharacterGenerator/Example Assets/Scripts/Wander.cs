@@ -33,11 +33,12 @@ public class Wander : MonoBehaviour
     {
         while (true)
         {
+            /*
             if (agent.remainingDistance <= stoppingDst)
             {
                 agent.SetDestination(transform.position + randomPoint);
                 yield return new WaitForSeconds(waitTime);
-            }
+            }*/
             yield return new WaitForSeconds(updateTime);
         }
     }

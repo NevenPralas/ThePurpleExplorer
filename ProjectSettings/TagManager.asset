@@ -14,6 +14,12 @@ TagManager:
   - Crystal
   - Trigger1
   - Trigger2
+  - stealingpoint
+  - sittingpoint
+  - pickuppoint
+  - waypoint
+  - Audience
+  - Survivor
   layers:
   - Default
   - TransparentFX
