@@ -14,10 +14,12 @@ public class KristalSkripta : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         // Provjerava je li objekt s kojim je igraè došao u dodir kristal
-        if (other.CompareTag("Crystal"))
+        Debug.Log(other.tag);
+        if (other.CompareTag("Player"))
         {
             // Uništava kristal
-            Destroy(other.gameObject);
+            GetComponent<Renderer>().enabled = false;
+            GetComponent<Collider>().enabled = false;
 
             // Poveæava brojaè pokupljenih kristala
             pokupljeniKristali++;
@@ -33,6 +35,6 @@ public class KristalSkripta : MonoBehaviour
     void PodigniZid()
     {
         // Pomakni zid prema gore
-        zid.transform.Translate(Vector3.up * 5.0f);
+        zid.transform.Translate(Vector3.up * 10f, Space.World);
     }
 }
