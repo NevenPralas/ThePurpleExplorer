@@ -21,7 +21,8 @@ namespace RandomCharacter
 
         public int characterLayer;
         public string characterTag = "Untagged";
-
+    [SerializeField]
+        public Transform parent;
         public Enumerations.characterGenre genre = Enumerations.characterGenre.Random;
         public Enumerations.desition haveBear = Enumerations.desition.Random;
         public Enumerations.desition useMask = Enumerations.desition.Random;
@@ -76,7 +77,7 @@ namespace RandomCharacter
 
                 character.transform.localScale = Vector3.one * Random.Range(characterSet.minSize, characterSet.maxSize);
                 character.transform.position = transform.position;
- 
+                character.transform.SetParent(parent);
                 if (characterSet.selectedModule.overrideLayer)
                 {
                     character.layer = characterSet.selectedModule.layer;
@@ -115,9 +116,9 @@ namespace RandomCharacter
                         break;
                 }
                 Animator animator = character.GetComponent<Animator>();
-                Debug.Log("Hi");
+
                 animator.runtimeAnimatorController = Resources.Load("Assets/PurpleExplorer_Scenes/QUIZ_UTIL/AudienceController") as RuntimeAnimatorController;
-               
+          
             }
             else
             {
@@ -166,6 +167,7 @@ namespace RandomCharacter
                         capsule.height = height;
                         break;
                 }
+                
             }
         }
 

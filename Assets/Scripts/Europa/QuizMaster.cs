@@ -8,8 +8,6 @@ using UnityEngine.SceneManagement;
 
 public class QuizMaster : MonoBehaviour
 {
-    [SerializeField]
-    public GameObject audience;
 
     [System.Serializable]
     public class QuestionClass {
@@ -77,7 +75,8 @@ public class QuizMaster : MonoBehaviour
     void Start()
     {
        // q_txt = GameObject.GetComponent<TMP_Text>();
-        animators = audience.GetComponentsInChildren<Animator>();
+        var GameObject[] audience = GameObject.FindGameObjectsWithTag("Audience");
+        animators = .GetComponentsInChildren<Animator>();
         loadQuestion(questionId);
     }
 
