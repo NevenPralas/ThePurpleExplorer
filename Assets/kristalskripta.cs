@@ -13,8 +13,7 @@ public class KristalSkripta : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        // Provjerava je li objekt s kojim je igraè došao u dodir kristal
-        Debug.Log(other.tag);
+        
         if (other.CompareTag("Player"))
         {
             // Uništava kristal
