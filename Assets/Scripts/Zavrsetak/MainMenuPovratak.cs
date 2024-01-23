@@ -25,5 +25,11 @@ public class MainMenuPovratak : MonoBehaviour
         GlobalMemory.kljunas = 0;
 
         GlobalMemory.ponovniUlazak = false;
+
+        GlobalMemory.porazEuropa = false;
+
+        BrojanjeLoptica.brojacLoptica = 20;
+        SmanjivanjeLoptica.poraz = 0;
+
     }
 }
