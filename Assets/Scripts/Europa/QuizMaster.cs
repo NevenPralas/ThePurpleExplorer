@@ -70,13 +70,21 @@ public class QuizMaster : MonoBehaviour
     private int selected = 0;
     private int correct;   
 
-  
+    private GameObject[] audience;
     // Start is called before the first frame update
     void Start()
     {
        // q_txt = GameObject.GetComponent<TMP_Text>();
-        var GameObject[] audience = GameObject.FindGameObjectsWithTag("Audience");
-        animators = .GetComponentsInChildren<Animator>();
+        audience = GameObject.FindGameObjectsWithTag("Audience");
+        int i = 0;
+        
+        /*
+        foreach (GameObject character in audience)
+        {
+           animators.SetValue(character.GetComponent<Animator>(), i);
+           i++;
+        }
+*/
         loadQuestion(questionId);
     }
 
@@ -94,31 +102,34 @@ public class QuizMaster : MonoBehaviour
         }
         else{
             if(selected != 0){
-
+/*
             foreach (Animator animator in animators)
             {
                 animator.SetBool("hasAnswered", true);
             }
 
-            
+         */   
             total++;
             if(selected == correct){
 
                 points++;
+                /*
                 foreach (Animator animator in animators)
                 {
                     animator.SetBool("AnsweredCorrectly", true);
                 }
-
+*/
                 //print correct
 
             }
             else {
                 //print wrong
+                /*
                 foreach (Animator animator in animators)
                 {
                     animator.SetBool("AnsweredCorrectly", false);
                 }
+                */
             }
             pointstxt.text = "Points: " + points + " / " + total;
             selected = 0;
