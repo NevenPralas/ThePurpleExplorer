@@ -75,8 +75,10 @@ public class QuizMaster : MonoBehaviour
     void Start()
     {
        // q_txt = GameObject.GetComponent<TMP_Text>();
+       /*
         var GameObject[] audience = GameObject.FindGameObjectsWithTag("Audience");
         animators = .GetComponentsInChildren<Animator>();
+        */
         loadQuestion(questionId);
     }
 
@@ -94,22 +96,23 @@ public class QuizMaster : MonoBehaviour
         }
         else{
             if(selected != 0){
-
+                    /*
             foreach (Animator animator in animators)
             {
                 animator.SetBool("hasAnswered", true);
             }
-
+            */
             
             total++;
             if(selected == correct){
 
                 points++;
+                /*
                 foreach (Animator animator in animators)
                 {
                     animator.SetBool("AnsweredCorrectly", true);
                 }
-
+                    */
                 //print correct
 
             }
