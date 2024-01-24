@@ -9,6 +9,12 @@ public class Pogodak : MonoBehaviour
 
     public static int pogodjeno2 = 0;
 
+    public GameObject plamen1;
+    public GameObject plamen2;
+    public GameObject plamen3;
+    public GameObject plamen4;
+    public GameObject plamen5;
+
     private void OnCollisionEnter(Collision collision)
     {
 
@@ -51,6 +57,26 @@ public class Pogodak : MonoBehaviour
 
         gameObject.GetComponent<MeshRenderer>().enabled = false;
         gameObject.GetComponent<CapsuleCollider>().enabled = false;
+        if(gameObject.name == "Zlo1")
+        {
+            plamen1.SetActive(false);
+        }
+        else if(gameObject.name == "Zlo2")
+        {
+            plamen2.SetActive(false);
+        }
+        else if (gameObject.name == "Zlo3")
+        {
+            plamen3.SetActive(false);
+        }
+        else if(gameObject.name == "Enemy1")
+        {
+            plamen4.SetActive(false);
+        }
+        else if(gameObject.name == "Enemy2")
+        {
+            plamen4.SetActive(false);
+        }
     }
 
 

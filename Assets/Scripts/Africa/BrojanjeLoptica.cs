@@ -176,7 +176,7 @@ public class BrojanjeLoptica : MonoBehaviour
 
         yield return new WaitForSeconds(4f);
 
-        gameObject.GetComponent<MeshRenderer>().enabled = false;
+        gameObject.GetComponent<MeshFilter>().mesh = null;
         gameObject.GetComponent<SphereCollider>().enabled = false;
     }
 

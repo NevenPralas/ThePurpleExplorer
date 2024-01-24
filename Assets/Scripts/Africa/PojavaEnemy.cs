@@ -6,6 +6,8 @@ public class PojavaEnemy : MonoBehaviour
 {
     public static int i = 0; public static int j = 0;
 
+    public GameObject plamen;
+
     // Update is called once per frame
     void Update()
     {
@@ -16,6 +18,8 @@ public class PojavaEnemy : MonoBehaviour
             gameObject.GetComponent<Rigidbody>().useGravity = true;
             if (gameObject.name == "Enemy1") i = 1 ;
             if (gameObject.name == "Enemy2") j = 1;
+
+            plamen.SetActive(true); 
         }
     }
 }
