@@ -77,7 +77,7 @@ public class PredjenLevel : MonoBehaviour
 
                 GlobalMemory.gsEuropa = 1;
             }
-            if(GlobalMemory.porazEuropa == true){
+            else if(GlobalMemory.porazEuropa == true){
                 text.text = "Task failed! Try again?";
                 text.color = Color.white;
                 button.image.color = Color.red;
