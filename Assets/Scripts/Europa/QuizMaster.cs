@@ -118,16 +118,18 @@ public class QuizMaster : MonoBehaviour
             }
             else {
                 //print wrong
+                /*
                 foreach (Animator animator in animators)
                 {
                     animator.SetBool("AnsweredCorrectly", false);
                 }
+                */
             }
             pointstxt.text = "Points: " + points + " / " + total;
             selected = 0;
             //sleep (2)
 
-            if(points > 5){
+            if(points >= 5){
                 finishGame();
             }
             else if(total <= endgame)
@@ -135,6 +137,7 @@ public class QuizMaster : MonoBehaviour
                 loadQuestion(++questionId);
             }
             else{
+                GlobalMemory.porazEuropa = true;
                 SceneManager.LoadScene("Otok");
             }
 

@@ -77,7 +77,7 @@ namespace RandomCharacter
 
                 character.transform.localScale = Vector3.one * Random.Range(characterSet.minSize, characterSet.maxSize);
                 character.transform.position = transform.position;
-                character.transform.SetParent(parent);
+
                 if (characterSet.selectedModule.overrideLayer)
                 {
                     character.layer = characterSet.selectedModule.layer;

@@ -44,4 +44,9 @@ public class GlobalMemory : MonoBehaviour
     public static bool ponovniUlazak = false;
 
 
+    public static bool porazEuropa = false;
+
+
+
+
 }
