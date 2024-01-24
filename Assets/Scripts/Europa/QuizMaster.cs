@@ -58,8 +58,6 @@ public class QuizMaster : MonoBehaviour
     private Texture image;
 
     public QuestionList q = new QuestionList();
-    
-    private Animator[] animators;
 
     public string filename = "Assets/Questions.json";
     public int points = 0;
@@ -71,14 +69,18 @@ public class QuizMaster : MonoBehaviour
     private int correct;   
 
   
+    private List<Animator> animators;
     // Start is called before the first frame update
     void Start()
     {
        // q_txt = GameObject.GetComponent<TMP_Text>();
-       /*
-        var GameObject[] audience = GameObject.FindGameObjectsWithTag("Audience");
-        animators = .GetComponentsInChildren<Animator>();
-        */
+       
+        GameObject[] audience = GameObject.FindGameObjectsWithTag("Survivor");
+        animators = new List<Animator>();
+        foreach(var character in audience){
+            animators.Add(character.GetComponent<Animator>());
+        }
+        
         loadQuestion(questionId);
     }
 
@@ -96,38 +98,36 @@ public class QuizMaster : MonoBehaviour
         }
         else{
             if(selected != 0){
-                    /*
-            foreach (Animator animator in animators)
-            {
-                animator.SetBool("hasAnswered", true);
-            }
-            */
-            
+    
             total++;
             if(selected == correct){
 
                 points++;
-                /*
+                
                 foreach (Animator animator in animators)
                 {
                     animator.SetBool("AnsweredCorrectly", true);
                 }
-                    */
+                    
                 //print correct
 
             }
             else {
                 //print wrong
-                /*
+                
                 foreach (Animator animator in animators)
                 {
                     animator.SetBool("AnsweredCorrectly", false);
                 }
-                */
+                
+            }
+            foreach (Animator animator in animators)
+            {
+                animator.SetBool("hasAnswered", true);
             }
             pointstxt.text = "Points: " + points + " / " + total;
             selected = 0;
-            //sleep (2)
+            Invoke("stopAnim", 5);
 
             if(points >= 5){
                 finishGame();
@@ -145,7 +145,12 @@ public class QuizMaster : MonoBehaviour
         
     }
 
-  
+    void stopAnim(){
+        foreach (Animator animator in animators)
+            {
+                animator.SetBool("hasAnswered", false);
+            }
+    }
 
     public void setAnswer(int val)
     {
@@ -162,6 +167,10 @@ public class QuizMaster : MonoBehaviour
 
         (totem.GetComponent("Grabbable") as MonoBehaviour).enabled = true;
         vitrina.SetActive(false);
+        foreach (Animator animator in animators)
+            {
+                animator.SetBool("hasWon", true);
+            }
         this.enabled = false;
     }
 

@@ -33,7 +33,6 @@ public class KristalSkripta : MonoBehaviour
 
     void PodigniZid()
     {
-        // Pomakni zid prema gore
-        zid.transform.Translate(Vector3.up * 10f, Space.World);
+        zid.SetActive(false);
     }
 }
