@@ -52,6 +52,11 @@ public class QuizMaster : MonoBehaviour
 
 [SerializeField]
     public GameObject rules;
+
+    [SerializeField]
+    public GameObject clap;
+    [SerializeField]
+    public GameObject pity;
 [SerializeField]
     public GameObject totem;
     public GameObject vitrina;
@@ -108,7 +113,7 @@ public class QuizMaster : MonoBehaviour
                 {
                     animator.SetBool("AnsweredCorrectly", true);
                 }
-                    
+                clap.SetActive(true);    
                 //print correct
 
             }
@@ -119,7 +124,7 @@ public class QuizMaster : MonoBehaviour
                 {
                     animator.SetBool("AnsweredCorrectly", false);
                 }
-                
+                pity.SetActive(true);
             }
             foreach (Animator animator in animators)
             {
@@ -127,7 +132,7 @@ public class QuizMaster : MonoBehaviour
             }
             pointstxt.text = "Points: " + points + " / " + total;
             selected = 0;
-            Invoke("stopAnim", 5);
+            Invoke("stopAnim", 3);
 
             if(points >= 5){
                 finishGame();
@@ -150,6 +155,8 @@ public class QuizMaster : MonoBehaviour
             {
                 animator.SetBool("hasAnswered", false);
             }
+        pity.SetActive(false);
+        clap.SetActive(false);
     }
 
     public void setAnswer(int val)
