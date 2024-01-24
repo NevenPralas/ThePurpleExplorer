@@ -62,7 +62,7 @@ public class QuizMaster : MonoBehaviour
     public string filename = "Assets/Questions.json";
     public int points = 0;
     public int total = 0;
-    public int endgame = 5;
+    public int endgame = 10;
     private int questionId = 0;
      [SerializeField]
     private int selected = 0;

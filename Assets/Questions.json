@@ -54,7 +54,63 @@
             "choiceD": "Amsterdam",
             "answer": "A",
             "imagepath" : "Images/eu_flag"
+        },
+
+        {
+            "id": 6,
+            "question": "Which country isn't part of the Benelux?",
+            "choiceA": "Belgium",
+            "choiceB": "France",
+            "choiceC": "Luxembourg",
+            "choiceD": "The Netherlands",
+            "answer": "B",
+            "imagepath" : "Images/luxembourg"
+        },
+
+        {
+            "id": 7,
+            "question": "What is the name of the highest mountain in Europe?",
+            "choiceA": "Mont Blanc",
+            "choiceB": "Triglav",
+            "choiceC": "Mount Elbrus",
+            "choiceD": "Mount Olympus",
+            "answer": "C",
+            "imagepath" : "Images/mountain"
+        },
+
+        {
+            "id": 8,
+            "question": "What is the name of the peninsula on which Portugal and Spain are situated?",
+            "choiceA": "Iberian peninsula",
+            "choiceB": "Balkan peninsula",
+            "choiceC": "Scandinavian peninsula",
+            "choiceD": "Apennine peninsula",
+            "answer": "A",
+            "imagepath" : "Images/iberia"
+        },
+
+        {
+            "id": 9,
+            "question": "What is the name of the highest active volcano in Europe?",
+            "choiceA": "Baroarbunga",
+            "choiceB": "Beerenberg",
+            "choiceC": "Oraefajokull",
+            "choiceD": "Mount Etna",
+            "answer": "D",
+            "imagepath" : "Images/etna"
+        },
+
+        {
+            "id": 10,
+            "question": "Bratislava is the capital of which country?",
+            "choiceA": "Poland",
+            "choiceB": "Hungary",
+            "choiceC": "Austria",
+            "choiceD": "Slovakia",
+            "answer": "D",
+            "imagepath" : "Images/bratislava"
         }
+
 
 
 
