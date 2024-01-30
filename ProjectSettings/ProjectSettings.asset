@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Vr Framework
+  productName: The Purple Explorer
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -193,9 +193,6 @@ PlayerSettings:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  - {fileID: -4991111001760921466, guid: 145a5087a03812943b88262c7f9ceebc, type: 2}
-  - {fileID: 11400000, guid: bfcf0aa12976e5047830ef9062b03f01, type: 2}
-  - {fileID: -1845309555778634258, guid: 12f472cf4c2e82b4e98205dae04fb8b7, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -216,7 +213,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.BeardedNinjaGames.VRInteractionFramework
-    Standalone: com.DefaultCompany.Vr-Framework
+    Standalone: com.DefaultCompany.The-Purple-Explorer
   buildNumber:
     Standalone: 0
     VisionOS: 0
@@ -341,7 +338,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: e21b84bd9dbaf0d44b077d3e017e4d53, type: 3}
+      m_Icon: {fileID: 2800000, guid: bdb13b0f8a075da4a99aa29bc4500d45, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0
