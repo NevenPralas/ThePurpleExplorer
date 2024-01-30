@@ -9,7 +9,4 @@ public class quit : MonoBehaviour
     Application.Quit();
    }
 
-   void Awake(){
-        ExitGame();
-    }
 }
